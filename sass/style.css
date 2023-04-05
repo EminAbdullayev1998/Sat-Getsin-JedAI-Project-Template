@@ -264,7 +264,7 @@ header .container .box2 a p span {
 .Two .container .title h1 {
   font-size: 30px;
   font-weight: 700;
-  font-family: sans-serif;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box1 {
@@ -307,6 +307,7 @@ header .container .box2 a p span {
 .Two .container .category-box1 .card-category1 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box1 .card-category2 {
@@ -344,6 +345,7 @@ header .container .box2 a p span {
 .Two .container .category-box1 .card-category2 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box1 .card-category3 {
@@ -381,6 +383,7 @@ header .container .box2 a p span {
 .Two .container .category-box1 .card-category3 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box1 .card-category4 {
@@ -418,6 +421,7 @@ header .container .box2 a p span {
 .Two .container .category-box1 .card-category4 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box1 .card-category5 {
@@ -455,6 +459,7 @@ header .container .box2 a p span {
 .Two .container .category-box1 .card-category5 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box1 .card-category6 {
@@ -492,6 +497,7 @@ header .container .box2 a p span {
 .Two .container .category-box1 .card-category6 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box2 {
@@ -534,6 +540,7 @@ header .container .box2 a p span {
 .Two .container .category-box2 .card-category7 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box2 .card-category8 {
@@ -571,6 +578,7 @@ header .container .box2 a p span {
 .Two .container .category-box2 .card-category8 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box2 .card-category9 {
@@ -609,6 +617,7 @@ header .container .box2 a p span {
 .Two .container .category-box2 .card-category9 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box2 .card-category10 {
@@ -647,6 +656,7 @@ header .container .box2 a p span {
 .Two .container .category-box2 .card-category10 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 .Two .container .category-box2 .card-category11 {
@@ -684,6 +694,7 @@ header .container .box2 a p span {
 .Two .container .category-box2 .card-category11 .name p {
   font-size: 18px;
   font-weight: 400;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
 
@@ -692,7 +703,7 @@ header .container .box2 a p span {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: yellow;
+  background-color: #f6f8fe;
 }
 .Three .container {
   max-width: 1200px;
@@ -705,28 +716,37 @@ header .container .box2 a p span {
   justify-content: space-between;
   width: 100%;
   height: 150px;
-  background-color: aquamarine;
 }
 .Three .container .title h1 {
   font-size: 30px;
   font-weight: 700;
-  font-family: sans-serif;
+  font-family: DM Sans;
   color: rgb(72, 75, 94);
 }
-.Three .container .title select {
+.Three .container .title button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 180px;
   height: 35px;
   background-color: rgb(246, 248, 254);
   border: 1px solid rgb(233, 232, 238);
+  cursor: pointer;
   outline: none;
 }
+.Three .container .title button:hover {
+  border: 1px solid black;
+}
+.Three .container .title button .fa-chevron-down {
+  margin-left: 10px;
+}
 .Three .container .card-boxes {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   height: auto;
-  background-color: pink;
 }
 .Three .container .card-boxes .premium-card {
   width: 18%;
@@ -753,7 +773,7 @@ header .container .box2 a p span {
   padding-left: 10px;
   font-size: 18px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: DM Sans;
   line-height: 23.44px;
   color: #656569;
 }
@@ -765,7 +785,7 @@ header .container .box2 a p span {
 }
 .Three .container .card-boxes .premium-card .price p {
   padding-left: 10px;
-  font-family: sans-serif;
+  font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -800,23 +820,29 @@ header .container .box2 a p span {
   margin-top: 20px;
   border-radius: 3px;
   cursor: pointer;
-  background-color: coral;
+  background-color: white;
 }
 .Three .container .card-boxes .elan-card .photo {
+  position: relative;
   width: 100%;
   height: 160px;
-  background-color: chocolate;
 }
 .Three .container .card-boxes .elan-card .photo img {
   width: 100%;
   height: 160px;
+}
+.Three .container .card-boxes .elan-card .photo .fa-heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: white;
 }
 .Three .container .card-boxes .elan-card .name {
   display: flex;
   align-items: center;
   width: 100%;
   height: 50px;
-  background-color: darkcyan;
 }
 .Three .container .card-boxes .elan-card .name h1 {
   color: #656569;
@@ -830,7 +856,6 @@ header .container .box2 a p span {
 .Three .container .card-boxes .elan-card .about {
   width: 100%;
   height: 60px;
-  background-color: burlywood;
 }
 .Three .container .card-boxes .elan-card .about p {
   padding-left: 10px;
@@ -846,9 +871,280 @@ header .container .box2 a p span {
   justify-content: flex-end;
   width: 100%;
   height: 50px;
-  background-color: cornflowerblue;
 }
 .Three .container .card-boxes .elan-card .price p {
   padding-right: 15px;
   color: rgb(72, 75, 94);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: DM Sans;
+}
+.Three .container .card-boxes .options {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  width: 192px;
+  height: 123px;
+  border-radius: 5px;
+  background-color: white;
+}
+.Three .container .card-boxes .options .opt1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+.Three .container .card-boxes .options .opt1:hover p {
+  color: rgb(106, 91, 205);
+}
+.Three .container .card-boxes .options .opt1 p {
+  margin-left: 10px;
+}
+.Three .container .card-boxes .options .opt2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+.Three .container .card-boxes .options .opt2:hover p {
+  color: rgb(106, 91, 205);
+}
+.Three .container .card-boxes .options .opt2 p {
+  margin-left: 10px;
+}
+.Three .container .card-boxes .options .opt3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+.Three .container .card-boxes .options .opt3:hover p {
+  color: rgb(106, 91, 205);
+}
+.Three .container .card-boxes .options .opt3 p {
+  margin-left: 10px;
+}
+.Three .container .load-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+.Three .container .load-more button {
+  width: 385px;
+  height: 66px;
+  background: #E9E8EE;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: rgb(72, 75, 94);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.Four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #f6f8fe;
+}
+.Four .container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.Four .container .title {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+.Four .container .title h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: DM Sans;
+  color: rgb(72, 75, 94);
+}
+.Four .container .title button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 35px;
+  background-color: rgb(246, 248, 254);
+  border: 1px solid rgb(233, 232, 238);
+  cursor: pointer;
+  outline: none;
+}
+.Four .container .title button:hover {
+  border: 1px solid black;
+}
+.Four .container .title button .fa-chevron-down {
+  margin-left: 10px;
+}
+.Four .container .card-boxes {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.Four .container .card-boxes .elan-card {
+  width: 18%;
+  height: 320px;
+  margin-top: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: white;
+}
+.Four .container .card-boxes .elan-card .photo {
+  position: relative;
+  width: 100%;
+  height: 160px;
+}
+.Four .container .card-boxes .elan-card .photo img {
+  width: 100%;
+  height: 160px;
+}
+.Four .container .card-boxes .elan-card .photo .fa-heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: white;
+}
+.Four .container .card-boxes .elan-card .name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Four .container .card-boxes .elan-card .name h1 {
+  color: #656569;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  padding-left: 10px;
+}
+.Four .container .card-boxes .elan-card .about {
+  width: 100%;
+  height: 60px;
+}
+.Four .container .card-boxes .elan-card .about p {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: rgb(151, 151, 152);
+}
+.Four .container .card-boxes .elan-card .about p .fa-solid {
+  color: rgb(208, 208, 210);
+}
+.Four .container .card-boxes .elan-card .price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+}
+.Four .container .card-boxes .elan-card .price p {
+  padding-right: 15px;
+  color: rgb(72, 75, 94);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: DM Sans;
+}
+.Four .container .card-boxes .options {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  width: 192px;
+  height: 123px;
+  border-radius: 5px;
+  background-color: white;
+}
+.Four .container .card-boxes .options .opt1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+.Four .container .card-boxes .options .opt1:hover p {
+  color: rgb(106, 91, 205);
+}
+.Four .container .card-boxes .options .opt1 p {
+  margin-left: 10px;
+}
+.Four .container .card-boxes .options .opt2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+.Four .container .card-boxes .options .opt2:hover p {
+  color: rgb(106, 91, 205);
+}
+.Four .container .card-boxes .options .opt2 p {
+  margin-left: 10px;
+}
+.Four .container .card-boxes .options .opt3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+.Four .container .card-boxes .options .opt3:hover p {
+  color: rgb(106, 91, 205);
+}
+.Four .container .card-boxes .options .opt3 p {
+  margin-left: 10px;
+}
+.Four .container .load-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+.Four .container .load-more button {
+  width: 385px;
+  height: 66px;
+  background: #E9E8EE;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: rgb(72, 75, 94);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url("/fonts/DMSans-Regular.ttf");
 }/*# sourceMappingURL=style.css.map */
