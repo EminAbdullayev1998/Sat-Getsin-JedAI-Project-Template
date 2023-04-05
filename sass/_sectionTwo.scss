@@ -1,0 +1,525 @@
+.Two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f6f8fe;
+
+    .container{
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+
+        .title{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 150px;
+
+            h1{
+                font-size: 30px;
+                font-weight: 700;
+                font-family: sans-serif;
+                color: rgba(72, 75, 94, 1);
+            }
+        }
+
+        .category-box1{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .card-category1{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/skyscrapper.png');
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+
+            .card-category2{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/cadillac.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+
+            .card-category3{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/wallpapersde.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+
+            .card-category4{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/architectural.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+
+            .card-category5{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/31NlFSFRHKL.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+
+            .card-category6{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/kids.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+        }
+
+        .category-box2{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding-top: 20px;
+
+            .card-category7{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/elektronika.png');
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+
+            .card-category8{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                margin-left: 25px;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/heyvanlar.png');
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+
+            .card-category9{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                margin-left: 25px;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/idman.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+
+            .card-category10{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                margin-left: 25px;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/longchamp.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+
+            .card-category11{
+                width: 15%;
+                height: 150px;
+                cursor: pointer;
+                margin-left: 25px;
+                &:hover{
+                    .name p{
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 110px;
+
+                    .circle{
+                        width: 60%;
+                        height: 100px;
+                        background-color: bisque;
+                        border-radius: 100%;
+                        background-image: url('/img/business.png');
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgba(72, 75, 94, 1);
+                    }
+                }
+            }
+        }
+    }
+}
