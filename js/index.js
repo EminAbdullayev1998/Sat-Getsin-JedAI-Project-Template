@@ -70,6 +70,10 @@ document.body.onclick = e =>{
 // En son elanlar category dropdown kodlari End============================================================================
 
 
+// Jquery nice select plugin Start ============================================================================
+
 $(document).ready(function() {
     $('#my-select').niceSelect();
 });
+
+// Jquery nice select plugin End ===============================================================================
