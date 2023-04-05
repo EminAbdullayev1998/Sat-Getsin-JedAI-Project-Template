@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="jquery-nice-select-1.1.0/css/nice-select.css">
     <link rel="stylesheet" href="sass/style.css">
     <title>Elan sayti</title>
 </head>
@@ -505,7 +506,7 @@
 
              <div class="title">
                  <h1>Ən son elanlar</h1>
-                 <button id="selec1">Ucuzdan Bahalıya <i class="fa-solid fa-chevron-down"></i></button>
+                 <button id="select1">Ucuzdan Bahalıya <i class="fa-solid fa-chevron-down"></i></button>
              </div>
 
              <div class="card-boxes">
@@ -765,7 +766,7 @@
                     </div>
 
 
-                    <div class="options" id="option2" style="display: none;">
+                    <div class="options" id="options2" style="display: none">
                         <div class="opt1" id="opt4">
                             <p>En yeniler</p>
                         </div>
@@ -786,6 +787,27 @@
 
     </section>
 
+    <!-- Section 4 END ============================================================================ -->
+
+
+    <!-- Section 5 START ============================================================================ -->
+
+    <section class="Five">
+
+        <div class="container">
+
+            <div class="title">
+                <h1>VIP elanlar</h1>
+                <select id="my-select">
+                    <option value="En yeniler">En yeniler</option>
+                    <option value="Bahalıdan ucuza">Bahalıdan ucuza</option>
+                    <option value="Ucuzdan bahalıya">Ucuzdan bahalıya</option>
+                </select>
+            </div>
+
+        </div>
+
+    </section>
 
 
 
@@ -795,7 +817,13 @@
 
 
 
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="jquery-nice-select-1.1.0/js/jquery.js"></script> 
+    <script src="jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
     <script src="js/index.js"></script>
-    
 </body>
 </html>

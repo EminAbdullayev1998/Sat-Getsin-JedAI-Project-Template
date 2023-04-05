@@ -953,6 +953,10 @@ header .container .box2 a p span {
   font-weight: 500;
   font-size: 20px;
 }
+.Three .container .load-more button:hover {
+  border: 1px solid rgb(106, 91, 205);
+  color: rgb(106, 91, 205);
+}
 
 .Four {
   display: flex;
@@ -1142,6 +1146,40 @@ header .container .box2 a p span {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+}
+.Four .container .load-more button:hover {
+  border: 1px solid rgb(106, 91, 205);
+  color: rgb(106, 91, 205);
+}
+
+.Five {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  background-color: yellow;
+}
+.Five .container {
+  max-width: 1200px;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+.Five .container .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: aquamarine;
+}
+.Five .container .title h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: DM Sans;
+  color: rgb(72, 75, 94);
 }
 
 @font-face {

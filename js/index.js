@@ -14,13 +14,6 @@ select.onclick = ()=>{
     }
 }
 
-
-document.body.onclick = e =>{
-    if (e.target !== select) {
-        options.style.display = 'none';
-    }
-}
-
 opt1.onclick = ()=>{
     select.innerHTML = opt1.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
 }
@@ -36,8 +29,47 @@ opt3.onclick = ()=>{
 // Premium elanlar category dropdown kodlari End============================================================================
 
 
+// En son elanlar category dropdown kodlari Start============================================================================
+
 let select1 = document.querySelector('#select1');
 let options2 = document.querySelector('#options2');
 let opt4 = document.querySelector('#opt4');
 let opt5 = document.querySelector('#opt5');
 let opt6 = document.querySelector('#opt6');
+
+
+select1.onclick = ()=>{
+    if (options2.style.display === 'none') {
+        options2.style.display = 'block';
+    }else{
+        options2.style.display = 'none';
+    }
+}
+
+
+opt4.onclick = ()=>{
+    select1.innerHTML = opt4.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
+}
+
+opt5.onclick = ()=>{
+    select1.innerHTML = opt5.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
+}
+
+opt6.onclick = ()=>{
+    select1.innerHTML = opt6.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
+}
+
+
+document.body.onclick = e =>{
+    if (e.target !== select && e.target !== select1  && e.target !== options && e.target !== options2) {
+        options.style.display = 'none';
+        options2.style.display = 'none';
+    }
+}
+
+// En son elanlar category dropdown kodlari End============================================================================
+
+
+$(document).ready(function() {
+    $('#my-select').niceSelect();
+});
