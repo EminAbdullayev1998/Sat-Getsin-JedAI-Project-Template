@@ -77,3 +77,41 @@ $(document).ready(function() {
 });
 
 // Jquery nice select plugin End ===============================================================================
+
+
+// Register modal kodlari Start ================================================================================
+
+let registerbtn = document.querySelector('#register-btn');
+let registerbox = document.querySelector('#register-boxx');
+let closebtn = document.querySelector('#fa-x');
+
+  //modalin acilmasi kodlari  
+registerbtn.onclick = ()=>{
+    if (registerbox.style.display === 'none') {
+        registerbox.style.display = 'flex';
+    }
+};
+
+  //modalin baglanmasi kodlari 
+closebtn.onclick = ()=>{
+    registerbox.style.display ='none';
+};
+
+
+  // email ve mobile kategorilerinin aktiv klass reng deyismeleri
+let email = document.querySelector('#email-box');
+let mobile = document.querySelector('#tel-box');
+
+mobile.onclick = ()=>{
+    email.classList.remove('animation1');
+    mobile.classList.add('animation2');
+}
+
+email.onclick = ()=>{
+    mobile.classList.remove('animation2');
+    email.classList.add('animation1');
+}
+
+// Register modal kodlari End ================================================================================
+
+

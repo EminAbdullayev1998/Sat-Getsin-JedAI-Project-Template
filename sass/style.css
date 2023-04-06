@@ -76,25 +76,28 @@ header .container .box2 {
   width: 50%;
   height: 100px;
 }
-header .container .box2 a {
+header .container .box2 button {
   width: 150px;
   height: auto;
   display: flex;
   align-items: center;
   text-decoration: none;
   color: black;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
   margin-right: 50px;
 }
-header .container .box2 a:hover {
+header .container .box2 button:hover {
   color: rgb(106, 91, 205);
 }
-header .container .box2 a .fa-regular {
+header .container .box2 button .fa-regular {
   font-size: 25px;
 }
-header .container .box2 a p {
+header .container .box2 button p {
   margin-left: 10px;
 }
-header .container .box2 a p span {
+header .container .box2 button p span {
   color: gray;
 }
 
@@ -251,6 +254,7 @@ header .container .box2 a p span {
   background-color: #f6f8fe;
 }
 .Two .container {
+  position: relative;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -696,6 +700,320 @@ header .container .box2 a p span {
   font-weight: 400;
   font-family: DM Sans;
   color: rgb(72, 75, 94);
+}
+.Two .container .register-box {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 100px;
+  left: 460px;
+  width: 500px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+  z-index: 99;
+}
+.Two .container .register-box .main-box {
+  width: 450px;
+  height: 500px;
+}
+.Two .container .register-box .main-box .modal-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .register-box .main-box .modal-title h1 {
+  color: rgb(72, 75, 94);
+  font-weight: 700;
+  font-size: 20px;
+  font-family: DM Sans;
+}
+.Two .container .register-box .main-box .modal-title .fa-x {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(182, 181, 191);
+}
+.Two .container .register-box .main-box .modal-about {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .register-box .main-box .modal-about p {
+  color: rgb(171, 172, 180);
+  font-weight: 400;
+  font-size: 16px;
+  font-family: DM Sans;
+}
+.Two .container .register-box .main-box .form-box {
+  width: 80%;
+  height: 420px;
+}
+.Two .container .register-box .main-box .form-box .form-options {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .register-box .main-box .form-box .form-options ::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(171, 172, 180);
+}
+.Two .container .register-box .main-box .form-box .form-options .email-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 40px;
+  cursor: pointer;
+}
+.Two .container .register-box .main-box .form-box .form-options .animation1 {
+  color: rgb(106, 91, 205);
+}
+.Two .container .register-box .main-box .form-box .form-options .animation1 ::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(106, 91, 205);
+  z-index: 5;
+}
+.Two .container .register-box .main-box .form-box .form-options .tel-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 40px;
+  cursor: pointer;
+}
+.Two .container .register-box .main-box .form-box .form-options .animation2 {
+  color: rgb(106, 91, 205);
+}
+.Two .container .register-box .main-box .form-box .form-options .animation2 ::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(106, 91, 205);
+  z-index: 5;
+}
+.Two .container .register-box .main-box .form-box .email-input {
+  width: 100%;
+  height: auto;
+}
+.Two .container .register-box .main-box .form-box .email-input .name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  padding-top: 20px;
+}
+.Two .container .register-box .main-box .form-box .email-input .name p {
+  color: rgb(171, 169, 183);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: DM Sans;
+  padding-left: 15px;
+}
+.Two .container .register-box .main-box .form-box .email-input .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .register-box .main-box .form-box .email-input .box .email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+  height: 40px;
+  background-color: #EFF3FA;
+  border-radius: 5px;
+}
+.Two .container .register-box .main-box .form-box .email-input .box .email input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  background-color: #EFF3FA;
+}
+.Two .container .register-box .main-box .form-box .email-input .box .email input:focus-visible {
+  outline: none;
+}
+.Two .container .register-box .main-box .form-box .password-input {
+  width: 100%;
+  height: auto;
+}
+.Two .container .register-box .main-box .form-box .password-input .name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  padding-top: 20px;
+}
+.Two .container .register-box .main-box .form-box .password-input .name p {
+  color: rgb(171, 169, 183);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: DM Sans;
+  padding-left: 15px;
+}
+.Two .container .register-box .main-box .form-box .password-input .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .register-box .main-box .form-box .password-input .box .password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+  height: 40px;
+  background-color: #EFF3FA;
+  border-radius: 5px;
+}
+.Two .container .register-box .main-box .form-box .password-input .box .password input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  background-color: #EFF3FA;
+}
+.Two .container .register-box .main-box .form-box .password-input .box .password input:focus-visible {
+  outline: none;
+}
+.Two .container .register-box .main-box .form-box .forgotpass {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .register-box .main-box .form-box .forgotpass p {
+  position: absolute;
+  top: 10px;
+  left: 65%;
+  cursor: pointer;
+  color: rgb(106, 91, 205);
+}
+.Two .container .register-box .main-box .form-box .forgotpass p:hover {
+  color: rgb(84, 72, 164);
+}
+.Two .container .register-box .main-box .form-box .forgotpass .container {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  width: 25%;
+  height: 20px;
+  color: rgb(171, 169, 183);
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.Two .container .register-box .main-box .form-box .forgotpass .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.Two .container .register-box .main-box .form-box .forgotpass .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #EFF3FA;
+}
+.Two .container .register-box .main-box .form-box .forgotpass .container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.Two .container .register-box .main-box .form-box .forgotpass .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.Two .container .register-box .main-box .form-box .forgotpass .container input:checked ~ .checkmark:after {
+  display: block;
+}
+.Two .container .register-box .main-box .form-box .forgotpass .container .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.Two .container .register-box .main-box .form-box .daxilol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+.Two .container .register-box .main-box .form-box .daxilol button {
+  width: 320px;
+  height: 50px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(233, 232, 238);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: DM Sans;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.Two .container .register-box .main-box .form-box .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .register-box .main-box .form-box .text p {
+  color: rgb(60, 54, 33);
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.Two .container .register-box .main-box .form-box .qeydiyyat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+.Two .container .register-box .main-box .form-box .qeydiyyat button {
+  width: 320px;
+  height: 50px;
+  border: none;
+  color: rgb(106, 91, 205);
+  border: 1px solid rgb(106, 91, 205);
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .Three {
@@ -1446,6 +1764,7 @@ header .container .box2 a p span {
   justify-content: flex-start;
   width: 100%;
   height: auto;
+  padding-bottom: 70px;
 }
 .Six .container .famous-requests .request-boxes a {
   width: 13%;
@@ -1465,6 +1784,220 @@ header .container .box2 a p span {
 }
 .Six .container .famous-requests .request-boxes a:hover {
   background-color: #cecef3;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+footer .container {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+}
+footer .container .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid rgb(246, 246, 246);
+}
+footer .container .logo a {
+  text-decoration: none;
+  color: rgb(73, 75, 89);
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 20px;
+}
+footer .container .logo .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(106, 91, 205);
+  width: 247px;
+  height: 59px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 40px;
+  color: white;
+}
+footer .container .logo .button:hover {
+  background-color: rgb(82, 71, 153);
+}
+footer .container .logo .button span {
+  font-size: 30px;
+  margin-right: 10px;
+}
+footer .container .nav-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+}
+footer .container .nav-box .contact {
+  width: 24%;
+  height: 400px;
+  position: relative;
+}
+footer .container .nav-box .contact ::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 60%;
+  width: 1px;
+  background-color: rgb(246, 246, 246);
+}
+footer .container .nav-box .contact .mail-tel {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding-bottom: 15px;
+}
+footer .container .nav-box .contact .mail-tel ::after {
+  content: "";
+  position: absolute;
+  top: 115px;
+  left: 0;
+  width: 60%;
+  height: 3px;
+  background-color: rgb(246, 246, 246);
+}
+footer .container .nav-box .contact .mail-tel p:nth-child(1) {
+  color: rgb(154, 156, 168);
+  padding-top: 40px;
+  font-weight: 700;
+  font-family: DM Sans;
+  font-size: 15px;
+}
+footer .container .nav-box .contact .mail-tel p:nth-child(2) {
+  color: rgb(154, 156, 168);
+  padding-top: 20px;
+  font-weight: 700;
+  font-family: DM Sans;
+  font-size: 15px;
+}
+footer .container .nav-box .contact .mail-tel .fa-phone {
+  color: gray;
+}
+footer .container .nav-box .contact .mail-tel .fa-envelope {
+  color: gray;
+}
+footer .container .nav-box .contact .apps {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+footer .container .nav-box .contact .apps a .fa-brands {
+  color: gray;
+  font-size: 23px;
+}
+footer .container .nav-box .contact .apps a .fa-brands:nth-child(2) {
+  padding-left: 15px;
+}
+footer .container .nav-box .contact .apps a:nth-child(2) {
+  margin-left: 15px;
+}
+footer .container .nav-box .categories {
+  display: flex;
+  justify-content: center;
+  width: 24%;
+  height: 400px;
+}
+footer .container .nav-box .categories ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 17px;
+  font-weight: DM Sans;
+}
+footer .container .nav-box .categories ul li .element {
+  color: #9A9CA8;
+  font-size: 15px;
+  font-weight: 500;
+  font-weight: DM Sans;
+}
+footer .container .nav-box .categories ul li .element:hover {
+  color: rgb(82, 71, 153);
+}
+footer .container .nav-box .categories ul li:nth-child(1) {
+  padding-top: 30px;
+}
+footer .container .nav-box .categories ul .nav {
+  margin-top: 10px;
+}
+footer .container .nav-box .options {
+  width: 24%;
+  height: 400px;
+}
+footer .container .nav-box .options ul li {
+  padding: 5px;
+}
+footer .container .nav-box .options ul li a {
+  text-decoration: none;
+  color: #9A9CA8;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: DM Sans;
+}
+footer .container .nav-box .options ul li a:hover {
+  color: rgb(82, 71, 153);
+}
+footer .container .nav-box .options ul .nav {
+  padding-top: 50px;
+}
+footer .container .nav-box .help {
+  display: flex;
+  justify-content: center;
+  width: 24%;
+  height: 400px;
+}
+footer .container .nav-box .help ul li a {
+  text-decoration: none;
+  color: rgb(154, 156, 168);
+}
+footer .container .nav-box .help ul li .name {
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: DM Sans;
+}
+footer .container .nav-box .help ul li:nth-child(1) {
+  padding-top: 30px;
+}
+footer .container .nav-box .help ul .nav {
+  padding-top: 10px;
+}
+footer .container .nav-box .help ul .nav:hover {
+  color: rgb(106, 91, 205);
+}
+footer .container .footer-alt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid rgb(246, 246, 246);
+}
+footer .container .footer-alt .p1 {
+  color: rgb(154, 156, 168);
+  font-weight: 700;
+  font-size: 15px;
+  font-family: DM Sans;
+}
+footer .container .footer-alt .p2 {
+  color: rgb(154, 156, 168);
+  font-weight: 700;
+  font-size: 15px;
+  font-family: DM Sans;
 }
 
 @font-face {
