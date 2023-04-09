@@ -539,8 +539,9 @@
             position: fixed;
             align-items: center;
             justify-content: center;
-            top: 100px;
-            left: 460px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
             width: 500px;
             height: 600px;
             background-color: rgba(255, 255, 255, 1);
@@ -572,6 +573,9 @@
                         font-size: 25px;
                         cursor: pointer;
                         color: rgba(182, 181, 191, 1);
+                        &:hover{
+                            color: rgb(148, 147, 157);
+                        }
                     }
                 }
 
@@ -695,11 +699,42 @@
                                 border-radius: 5px;
 
                                 input{
-                                    width: 90%;
+                                    width: 85%;
                                     height: 30px;
                                     border: none;
                                     background-color: #EFF3FA;
                                     &:focus-visible{
+                                        outline: none;
+                                    }
+                                }
+
+                                #mobileInput {
+                                    display: none;
+                                    width: 55%;
+                                    height: 30px;
+                                    &::placeholder{
+                                        color: rgba(111, 114, 132, 1);
+                                    }
+                                }
+                                
+                                #span{
+                                    display: none;
+                                    color: rgba(72, 75, 94, 1);
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    font-family: DM Sans;
+                                    padding-right: 5px;
+                                }
+
+                                #numcode{
+                                    display: none;
+                                    border: none;
+                                    background-color: #EFF3FA;
+                                    margin-right: 5px;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    font-family: DM Sans;
+                                    &:focus{
                                         outline: none;
                                     }
                                 }
@@ -744,13 +779,18 @@
                                 border-radius: 5px;
 
                                 input{
-                                    width: 90%;
+                                    width: 80%;
                                     height: 30px;
                                     border: none;
                                     background-color: #EFF3FA;
                                     &:focus-visible{
                                         outline: none;
                                     }
+                                }
+
+                                .fa-solid{
+                                    cursor: pointer;
+                                    color: rgba(190, 186, 215, 1);
                                 }
                             }
                         }
@@ -847,6 +887,10 @@
                             font-family: DM Sans;
                             letter-spacing: 2px;
                             cursor: pointer;
+                            transition: all 0.5s;
+                            &:hover{
+                                background-color: rgb(187, 186, 194);
+                            }
                         }
                     }
 
@@ -881,7 +925,1319 @@
                             border: 1px solid rgba(106, 91, 205, 1);
                             background-color: white;
                             border-radius: 5px;
+                            font-size: 18px;
+                            font-weight: 600;
+                            font-family: DM Sans;
                             cursor: pointer;
+                            transition: all 0.5s;
+                            &:hover{
+                                color: white;
+                                background-color: rgba(106, 91, 205, 1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .forgot-password{
+            position: fixed;
+            align-items: center;
+            justify-content: center;
+            width: 500px;
+            height: 600px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(255, 255, 255, 1);
+            z-index: 99;
+
+            .main-box{
+                width: 450px;
+                height: 500px;
+
+                .title{
+                    position: relative;
+                    width: 100%;
+                    height: 50px;
+
+                    h1{
+                        color: rgba(72, 75, 94, 1);
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: DM Sans;
+                    }
+
+                    .fa-x{
+                        position: absolute;
+                        top: -10px;
+                        right: 0px;
+                        font-size: 25px;
+                        cursor: pointer;
+                        color: rgba(182, 181, 191, 1);
+                        &:hover{
+                            color: rgb(165, 164, 173);
+                        }
+                    }
+                }
+
+                .text{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        color: rgba(151, 151, 152, 1);
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: DM Sans;
+                    }
+                }
+
+                .main-box{
+                    width: 100%;
+                    height: 300px;
+
+                    .options-box{
+                        position: relative;
+                        display: flex;
+                        width: 100%;
+                        height: 40px;
+
+                        ::after{
+                            position: absolute;
+                            content: '';
+                            bottom: 0px;
+                            left: 0px;
+                            width: 100%;
+                            height: 1px;
+                            background-color: rgba(171, 169, 183, 1);
+                        }
+
+                        .option-email{
+                            display: flex;
+                            position: relative;
+                            align-items: center;
+                            justify-content: center;
+                            width: 20%;
+                            height: 40px;
+                            cursor: pointer;
+
+                            p{
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-family: DM Sans;
+                                color: rgba(171, 172, 180, 1);
+                            }
+                        }
+
+                        .animation3{
+                            ::after{
+                                position: absolute;
+                                content: '';
+                                bottom: 0px;
+                                left: 0px;
+                                width: 100%;
+                                height: 3px;
+                                z-index: 10;
+                                background-color: rgba(106, 91, 205, 1);
+                            }
+
+                            p{
+                                color: rgba(106, 91, 205, 1) !important;
+                            }
+                        }
+
+                        .option-phone{
+                            display: flex;
+                            position: relative;
+                            align-items: center;
+                            justify-content: center;
+                            width: 22%;
+                            height: 40px;
+                            cursor: pointer;
+
+                            p{
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-family: DM Sans;
+                                color: rgba(171, 172, 180, 1);
+                            }
+                        }
+                    }
+
+                    .form-box{
+                        width: 100%;
+                        height: auto;
+
+                        .input-box{
+                            width: 100%;
+                            height: 80px;
+                            padding-top: 20px;
+
+                            .name{
+                                display: flex;
+                                align-items: center;
+                                width: 100%;
+                                height: 30px;
+
+                                p{
+                                    font-family: DM Sans;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    color: rgba(171, 169, 183, 1);
+                                }
+
+                                #pMail{
+                                    display: block;
+                                }
+
+                                #pTel{
+                                   display: none;
+                                }
+                            }
+
+                            .hero-box{
+                                display: flex;
+                                align-items: center;
+                                width: 100%;
+                                height: 50px;
+
+                                .input{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 70%;
+                                    height: 40px;
+                                    background-color: rgba(239, 243, 250, 1);
+
+                                    input{
+                                        width: 90%;
+                                        height: 25px;
+                                        border: none;
+                                        background-color: rgba(239, 243, 250, 1);
+                                        &:focus-visible{
+                                            outline: none;
+                                        }
+
+                                        ::placeholder{
+                                            color: rgba(171, 169, 183, 1);
+                                            font-family: DM Sans;
+                                            font-size: 16px;
+                                            font-weight: 400;
+                                        }
+                                    }
+
+                                    #mailPassInput{
+                                        display: block;
+                                    }
+
+                                    #telPassInput{
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 110px;
+
+                            button{
+                                width: 70%;
+                                height: 50px;
+                                cursor: pointer;
+                                border: none;
+                                border-radius: 5px;
+                                background-color: rgba(233, 232, 238, 1);
+                                color: #ffffff;
+                                font-size: 18px;
+                                font-weight: 700;
+                                font-family: DM Sans;
+                                font-style: bold;
+                                transition: all 0.5s;
+                                &:hover{
+                                    background-color: rgb(205, 204, 209);
+                                }
+                            }
+
+                            #buttonMail{
+                                display: block;
+                            }
+
+                            #buttonTel{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .check-email-modal{
+            position: fixed;
+            align-items: center;
+            justify-content: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 500px;
+            height: 550px;
+            background-color: rgba(255, 255, 255, 1);
+            z-index: 99;
+
+            .main-box{
+                width: 90%;
+                height: 450px;
+
+                .title-checkmailmodal{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 50px;
+
+                    h1{
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: DM Sans;
+                        color: rgba(72, 75, 94, 1);
+                    }
+
+                    .fa-x{
+                        position: absolute;
+                        right: 0px;
+                        top: -5px;
+                        font-size: 25px;
+                        cursor: pointer;
+                        color: rgba(182, 181, 191, 1);
+                        &:hover{
+                            color: rgb(156, 155, 165);
+                        }
+                    }
+                }
+
+                .text{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 50px;
+
+                    span{
+                        color: rgba(72, 75, 94, 1);
+                        font-family: DM Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+
+                    p{
+                        color: rgba(151, 151, 152, 1);
+                        font-family: DM Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+
+                .main-box{
+                    width: 100%;
+                    height: 300px;
+
+                    .code-box{
+                        width: 70%;
+                        height: 300px;
+
+                        .boxes{
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 150px;
+
+                            input{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 15%;
+                                height: 50px;
+                                border: none;
+                                margin-right: 10px;
+                                text-align: center;
+                                font-size: 25px;
+                                background-color: transparent;
+                                border-bottom: 4px solid rgb(188, 187, 194);
+                                &:focus-visible{
+                                    outline: none;
+                                }
+                            }
+
+                            // number inputun icindeki oxlari yoxa cixarmaq kodlari
+                            input::-webkit-outer-spin-button,
+                            input::-webkit-inner-spin-button {
+                              -webkit-appearance: none;
+                              margin: 0;
+                            }
+
+                            p{
+                                position: absolute;
+                                top: 115px;
+                                right: 90px;
+                                color: rgba(171, 169, 183, 1);
+                                font-size: 16px;
+                                font-weight: 700;
+                                font-family: DM Sans;
+                            }
+                        }
+
+                        .button{
+                            display: flex;
+                            align-items: end;
+                            justify-content: center;
+                            width: 100%;
+                            height: 100px;
+
+                            button{
+                                width: 100%;
+                                height: 50px;
+                                border: none;
+                                cursor: pointer;
+                                border-radius: 5px;
+                                background-color: rgba(233, 232, 238, 1);
+                                color: rgba(255, 255, 255, 1);
+                                font-size: 18px;
+                                font-weight: 700;
+                                font-family: DM Sans;
+                                letter-spacing: 0.02em;
+                                &:hover{
+                                    background-color: rgb(197, 195, 205);
+                                }
+                            }
+                        }
+
+                        .other-options{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 100%;
+                            height: 50px;
+
+                            .p1{
+                                color: rgba(72, 75, 94, 1);
+                                text-decoration-line: underline;
+                                font-size: 14px;
+                                font-weight: 700;
+                                font-family: DM Sans;
+                                cursor: pointer;
+                            }
+
+                            .p2{
+                                color: rgba(106, 91, 205, 1);
+                                font-size: 14px;
+                                font-weight: 700;
+                                font-family: DM Sans;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .check-phone-modal{
+            position: fixed;
+            align-items: center;
+            justify-content: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 500px;
+            height: 550px;
+            background-color: rgba(255, 255, 255, 1);
+            z-index: 99;
+
+            .main-box{
+                width: 90%;
+                height: 450px;
+
+                .title-checkphonemodal{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 50px;
+
+                    h1{
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: DM Sans;
+                        color: rgba(72, 75, 94, 1);
+                    }
+
+                    .fa-x{
+                        position: absolute;
+                        right: 0px;
+                        top: -5px;
+                        font-size: 25px;
+                        cursor: pointer;
+                        color: rgba(182, 181, 191, 1);
+                        &:hover{
+                            color: rgb(156, 155, 165);
+                        }
+                    }
+                }
+
+                .text{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 50px;
+
+                    span{
+                        color: rgba(72, 75, 94, 1);
+                        font-family: DM Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+
+                    p{
+                        color: rgba(151, 151, 152, 1);
+                        font-family: DM Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+
+                .main-box{
+                    width: 100%;
+                    height: 300px;
+
+                    .code-box{
+                        width: 70%;
+                        height: 300px;
+
+                        .boxes{
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 150px;
+
+                            input{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 15%;
+                                height: 50px;
+                                border: none;
+                                margin-right: 10px;
+                                text-align: center;
+                                font-size: 25px;
+                                background-color: transparent;
+                                border-bottom: 4px solid rgb(188, 187, 194);
+                                &:focus-visible{
+                                    outline: none;
+                                }
+                            }
+
+                            // number inputun icindeki oxlari yoxa cixarmaq kodlari
+                            input::-webkit-outer-spin-button,
+                            input::-webkit-inner-spin-button {
+                              -webkit-appearance: none;
+                              margin: 0;
+                            }
+
+                            p{
+                                position: absolute;
+                                top: 115px;
+                                right: 90px;
+                                color: rgba(171, 169, 183, 1);
+                                font-size: 16px;
+                                font-weight: 700;
+                                font-family: DM Sans;
+                            }
+                        }
+
+                        .button{
+                            display: flex;
+                            align-items: end;
+                            justify-content: center;
+                            width: 100%;
+                            height: 100px;
+
+                            button{
+                                width: 100%;
+                                height: 50px;
+                                border: none;
+                                cursor: pointer;
+                                border-radius: 5px;
+                                background-color: rgba(233, 232, 238, 1);
+                                color: rgba(255, 255, 255, 1);
+                                font-size: 18px;
+                                font-weight: 700;
+                                font-family: DM Sans;
+                                letter-spacing: 0.02em;
+                                &:hover{
+                                    background-color: rgb(197, 195, 205);
+                                }
+                            }
+                        }
+
+                        .other-options{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 100%;
+                            height: 50px;
+
+                            .p1{
+                                color: rgba(72, 75, 94, 1);
+                                text-decoration-line: underline;
+                                font-size: 14px;
+                                font-weight: 700;
+                                font-family: DM Sans;
+                                cursor: pointer;
+                            }
+
+                            .p2{
+                                color: rgba(106, 91, 205, 1);
+                                font-size: 14px;
+                                font-weight: 700;
+                                font-family: DM Sans;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .reset-password{
+            position: fixed;
+            align-items: center;
+            justify-content: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 500px;
+            height: 550px;
+            background-color: rgba(255, 255, 255, 1);
+            z-index: 99;
+
+            .main-box{
+                width: 90%;
+                height: auto;
+
+                .title-resetpass{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+
+                    h1{
+                        color: rgba(72, 75, 94, 1);
+                        font-family: DM Sans;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+
+                    .fa-x{
+                        position: absolute;
+                        top: -10px;
+                        right: 10px;
+                        font-size: 25px;
+                        cursor: pointer;
+                        color: rgba(182, 181, 191, 1);
+                        &:hover{
+                            color: rgb(156, 155, 165);
+                        }
+                    }
+                }
+
+                .resetform-box{
+                    width: 100%;
+                    height: auto;
+
+                    .inputbox1{
+                        width: 100%;
+                        height: auto;
+
+                        .name{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 40px;
+                            padding-top: 20px;
+
+                            p{
+                                color: rgba(171, 169, 183, 1);
+                                font-family: DM Sans;
+                                font-size: 14px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .box-input1{
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 50px;
+                            padding-bottom: 10px;
+
+                            .input{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 70%;
+                                height: 40px;
+                                background-color: rgba(239, 243, 250, 1);
+
+                                .fa-solid{
+                                    color: rgba(190, 186, 215, 1);
+                                    font-size: 20px;
+                                    cursor: pointer;
+                                }
+
+                                input{
+                                    width: 80%;
+                                    height: 25px;
+                                    border: none;
+                                    border-radius: 5px;
+                                    background-color: rgba(239, 243, 250, 1);
+                                    &:focus-visible{
+                                        outline: none;
+                                    }
+                                }
+                            }
+
+                            .bar{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                position: absolute;
+                                left: 0px;
+                                bottom: 3px;
+                                width: 30%;
+                                height: 10px;
+
+                                .strength{
+                                    width: 15%;
+                                    height: 3px;
+                                }
+                            }
+                        }
+                    }
+
+                    .inputbox2{
+                        width: 100%;
+                        height: auto;
+
+                        .name{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 40px;
+                            padding-top: 15px;
+
+                            p{
+                                color: rgba(171, 169, 183, 1);
+                                font-family: DM Sans;
+                                font-size: 14px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .box-input2{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 50px;
+
+                            .input{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 70%;
+                                height: 40px;
+                                border-radius: 5px;
+                                background-color: rgb(239, 243, 250);
+
+                                .fa-solid{
+                                    color: rgba(190, 186, 215, 1);
+                                    font-size: 20px;
+                                    cursor: pointer;
+                                }
+
+                                input{
+                                    width: 80%;
+                                    height: 25px;
+                                    border: none;
+                                    border-radius: 5px;
+                                    background-color: rgb(239, 243, 250);
+                                    &:focus-visible{
+                                        outline: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .check-box{
+                        position: relative;
+                        width: 100%;
+                        height: 40px;
+                        padding-bottom: 10px;
+
+                        .container {
+                            position: absolute;
+                            top: 10px;
+                            left: 1%;
+                            width: 25%;
+                            height: 20px;
+                            color: rgba(171, 169, 183, 1);
+                            padding-left: 30px;
+                            cursor: pointer;
+                            font-size: 16px;
+                            user-select: none;
+                        }
+
+                        .container input {
+                            position: absolute;
+                            opacity: 0;
+                            cursor: pointer;
+                            height: 0;
+                            width: 0;
+                        }
+
+                        .checkmark {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 20px;
+                            width: 20px;
+                            background-color: #EFF3FA;
+                        }
+
+                        .container input:checked ~ .checkmark {
+                            background-color: #2196F3;
+                        }
+
+                        .checkmark:after {
+                            content: "";
+                            position: absolute;
+                            display: none;
+                        }
+
+                        .container input:checked ~ .checkmark:after {
+                            display: block;
+                        }
+                        
+                        .container .checkmark:after {
+                            left: 7px;
+                            top: 2px;
+                            width: 5px;
+                            height: 10px;
+                            border: solid white;
+                            border-width: 0 3px 3px 0;
+                            transform: rotate(45deg);
+                        }
+                    }
+
+                    .button{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 80px;
+
+                        button{
+                            width: 70%;
+                            height: 50px;
+                            color: white;
+                            background-color: rgba(106, 91, 205, 1);
+                            border: none;
+                            cursor: pointer;
+                            border-radius: 5px;
+                            font-size: 18px;
+                            font-weight: 600;
+                            font-family: DM Sans;
+                            &:hover{
+                                background-color: rgb(98, 85, 189);
+                            }
+                        }
+                    }
+
+                    .daxilol-button{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 60px;
+
+                        button{
+                            width: 70%;
+                            height: 50px;
+                            color: rgba(106, 91, 205, 1);
+                            border: 1px solid rgba(106, 91, 205, 1);
+                            background-color: rgba(255, 255, 255, 1);
+                            cursor: pointer;
+                            border-radius: 5px;
+                            font-size: 18px;
+                            font-weight: 600;
+                            font-family: DM Sans;
+                        }
+                    }
+                }
+            }
+        }
+
+        .new-user-modal{
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 500px;
+            height: 700px;
+            background-color: rgba(255, 255, 255, 1);
+            z-index: 99;
+
+            .main-box{
+                width: 90%;
+                height: auto;
+
+                .modal-title{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+
+                    h1{
+                        color: rgba(72, 75, 94, 1);
+                        font-family: DM Sans;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+
+                    .fa-x{
+                        position: absolute;
+                        top: -10px;
+                        right: 10px;
+                        font-size: 25px;
+                        cursor: pointer;
+                        color: rgba(182, 181, 191, 1);
+                        &:hover{
+                            color: rgb(156, 155, 165);
+                        }
+                    }
+                }
+
+                .form-box{
+                    width: 100%;
+                    height: auto;
+
+                    .inputbox1{
+                        width: 100%;
+                        height: auto;
+
+                        .name{
+                            display: flex;
+                            align-items: end;
+                            width: 100%;
+                            height: 40px;
+
+                            p{
+                                color: rgba(171, 169, 183, 1);
+                                font-family: DM Sans;
+                                font-size: 14px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .box-input1{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 50px;
+
+                            .input{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 65%;
+                                height: 40px;
+                                background-color: rgba(239, 243, 250, 1);
+                                border-radius: 5px;
+
+                                input{
+                                    width: 90%;
+                                    height: 30px;
+                                    border: none;
+                                    background-color: rgba(239, 243, 250, 1);
+                                    &:focus-visible{
+                                        outline: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .inputbox2{
+                        width: 100%;
+                        height: auto;
+
+                        .name{
+                            display: flex;
+                            align-items: end;
+                            width: 100%;
+                            height: 30px;
+
+                            p{
+                                color: rgba(171, 169, 183, 1);
+                                font-family: DM Sans;
+                                font-size: 14px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .box-input1{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 50px;
+
+                            .input{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 65%;
+                                height: 40px;
+                                background-color: rgba(239, 243, 250, 1);
+                                border-radius: 5px;
+
+                                input{
+                                    width: 90%;
+                                    height: 30px;
+                                    border: none;
+                                    background-color: rgba(239, 243, 250, 1);
+                                    &:focus-visible{
+                                        outline: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .inputbox3{
+                        width: 100%;
+                        height: auto;
+
+                        .name{
+                            display: flex;
+                            align-items: end;
+                            width: 100%;
+                            height: 30px;
+
+                            p{
+                                color: rgba(171, 169, 183, 1);
+                                font-family: DM Sans;
+                                font-size: 14px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .box-input1{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 50px;
+
+                            .input{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 65%;
+                                height: 40px;
+                                background-color: rgba(239, 243, 250, 1);
+                                border-radius: 5px;
+
+                                select{
+                                    color: rgba(72, 75, 94, 1);
+                                    border: none;
+                                    background-color: rgba(239, 243, 250, 1);
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    font-family: DM Sans;
+                                    &:focus{
+                                        outline: none;
+                                    }
+                                }
+
+                                span{
+                                    color: rgba(72, 75, 94, 1);
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    font-family: DM Sans;
+                                }
+                                
+                                input{
+                                    border: none;
+                                    background-color: rgba(239, 243, 250, 1);
+                                    &:focus{
+                                        outline: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .inputbox4{
+                        width: 100%;
+                        height: auto;
+
+                        .name{
+                            display: flex;
+                            align-items: end;
+                            width: 100%;
+                            height: 30px;
+
+                            p{
+                                color: rgba(171, 169, 183, 1);
+                                font-family: DM Sans;
+                                font-size: 14px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .box-input1{
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 50px;
+                            padding-bottom: 10px;
+
+                            .input{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 65%;
+                                height: 40px;
+                                background-color: rgba(239, 243, 250, 1);
+                                border-radius: 5px;
+
+                                .fa-solid{
+                                    color: rgba(190, 186, 215, 1);
+                                    font-size: 20px;
+                                    cursor: pointer;
+                                }
+
+                                input{
+                                    width: 80%;
+                                    height: 25px;
+                                    border: none;
+                                    border-radius: 5px;
+                                    background-color: rgba(239, 243, 250, 1);
+                                    &:focus-visible{
+                                        outline: none;
+                                    }
+                                }
+                            }
+
+                            .bar{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                position: absolute;
+                                left: 0px;
+                                bottom: 3px;
+                                width: 30%;
+                                height: 10px;
+
+                                .strength1{
+                                    width: 15%;
+                                    height: 3px;
+                                }
+                            }
+                        }
+                    }
+
+                    .inputbox5{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 50px;
+
+                        .input{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 45%;
+                            height: 40px;
+                            border-radius: 5px;
+                            background-color: rgba(239, 243, 250, 1);
+
+                            input{
+                                width: 90%;
+                                height: 30px;
+                                border: none;
+                                background-color: rgba(239, 243, 250, 1);
+                                &:focus{
+                                    outline: none;
+                                }
+                            }
+
+                            input::-webkit-outer-spin-button,
+                            input::-webkit-inner-spin-button {
+                              -webkit-appearance: none;
+                              margin: 0;
+                            }
+                        }
+
+                        .photo-code{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 15%;
+                            height: 40px;
+                            border-radius: 5px;
+                            background-color: white;
+                            border: 1px solid rgb(197, 195, 205);
+                            margin-left: 20px;
+
+                            p{
+                                color: rgba(111, 114, 132, 1);
+                                font-size: 16px;
+                                font-weight: 400;
+                                font-family: DM Sans;
+                            }
+                        }
+                    }
+
+                    .check-box{
+                        position: relative;
+                        width: 100%;
+                        height: 40px;
+
+                        span{
+                            color: rgba(106, 91, 205, 1);
+                            font-family: DM Sans;
+                            font-size: 14px;
+                            font-weight: 700;
+                        }
+
+                        .container {
+                            position: absolute;
+                            top: 10px;
+                            left: 1%;
+                            width: 45%;
+                            height: 20px;
+                            color: rgba(171, 169, 183, 1);
+                            padding-left: 30px;
+                            cursor: pointer;
+                            font-size: 16px;
+                            user-select: none;
+                        }
+
+                        .container input {
+                            position: absolute;
+                            opacity: 0;
+                            cursor: pointer;
+                            height: 0;
+                            width: 0;
+                        }
+
+                        .checkmark {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 20px;
+                            width: 20px;
+                            background-color: #EFF3FA;
+                        }
+
+                        .container input:checked ~ .checkmark {
+                            background-color: #2196F3;
+                        }
+
+                        .checkmark:after {
+                            content: "";
+                            position: absolute;
+                            display: none;
+                        }
+
+                        .container input:checked ~ .checkmark:after {
+                            display: block;
+                        }
+                        
+                        .container .checkmark:after {
+                            left: 7px;
+                            top: 2px;
+                            width: 5px;
+                            height: 10px;
+                            border: solid white;
+                            border-width: 0 3px 3px 0;
+                            transform: rotate(45deg);
+                        }
+                    }
+
+                    .button-1{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 60px;
+
+                        button{
+                            width: 66%;
+                            height: 50px;
+                            border: none;
+                            color: white;
+                            cursor: pointer;
+                            font-family: DM Sans;
+                            font-weight: 700;
+                            font-size: 18px;
+                            border-radius: 5px;
+                            background-color: rgba(106, 91, 205, 1);
+                        }
+                    }
+
+                    .text{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 30px;
+
+                        p{
+                            font-family: DM Sans;
+                            font-size: 14px;
+                            font-weight: 400;
+                            margin-left: 75px;
+                            color: rgba(60, 54, 33, 1);
+                        }
+                    }
+
+                    .button-2{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 60px;
+
+                        button{
+                            width: 66%;
+                            height: 50px;
+                            border: none;
+                            color: rgba(151, 151, 152, 1);
+                            cursor: pointer;
+                            font-family: DM Sans;
+                            font-weight: 700;
+                            font-size: 18px;
+                            border-radius: 5px;
+                            background-color: transparent;
+                            border: 1px solid rgba(233, 232, 238, 1);
                         }
                     }
                 }

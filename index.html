@@ -52,6 +52,7 @@
     <section class="One">
 
         <div class="container">
+
             <div class="nav">
                 <div class="logo">
                     <a href="*">Logo</a>
@@ -59,8 +60,9 @@
    
                 <div class="input-box">
                    <div class="main-box">
-                       <button class="category">
-                           <img src="img/category.png" alt="error">
+                       <button class="category" id="categoryBtn">
+                           <img src="img/category.png" alt="error" id="imgBtn">
+                           <!-- <img src="img/x-categories.png" alt="error"> -->
                            <p>Kategoriya seçin</p>
                        </button>
                        <input type="text" placeholder="Axtaracağınız məhsul,elan,kateqoriyanı yazın">
@@ -77,8 +79,285 @@
                 <div class="create-button">
                     <a href="*"><span>+</span> Yeni Elan</a>
                 </div>
+
+                <div class="layer"></div>
+
+                <div class="categories-modal" id="categoriesModal" style="display: none;">
+                    <div class="container">
+                        <div class="categories">
+                            <div class="category1" id="category1">
+                                <div class="circle"><i class="fa-solid fa-house"></i></div>
+                                <p>Ev və bağ</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="category2" id="category2">
+                                <div class="circle"><i class="fa-solid fa-mobile"></i></div>
+                                <p>Elektronika və texnika</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="category3" id="category3">
+                                <div class="circle"><i class="fa-solid fa-building"></i></div>
+                                <p>Daşınmaz əmlak</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="category4" id="category4">
+                                <div class="circle"><i class="fa-solid fa-car"></i></div>
+                                <p>Nəqliyyat</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="category5" id="category5">
+                                <div class="circle"><i class="fa-solid fa-mitten"></i></div>
+                                <p>Şəxsi əşyalar</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="category6" id="category6">
+                                <div class="circle"><i class="fa-solid fa-gamepad"></i></div>
+                                <p>Hobbi,asudə</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="category7" id="category7">
+                                <div class="circle"><i class="fa-solid fa-baby-carriage"></i></div>
+                                <p>Uşaq aləmi</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="category8" id="category8">
+                                <div class="circle"><i class="fa-solid fa-dog"></i></div>
+                                <p>Heyvan</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="category9" id="category9">
+                                <div class="circle"><i class="fa-solid fa-user-doctor"></i></div>
+                                <p>Vakansiyalar</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="category10" id="category10">
+                                <div class="circle"><i class="fa-solid fa-wrench"></i></i></div>
+                                <p>Digər xidmətlər</p>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <diV class="category-list">
+                            <div class="listbox1" id="listbox1">
+                                <div class="list1">
+                                    <p>Ev</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list2">
+                                    <p>Bağ</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list3">
+                                    <p>Ev</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list4">
+                                    <p>Bağ</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list5">
+                                    <p>Ev</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list6">
+                                    <p>Bağ</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox2" id="listbox2">
+                                <div class="list7">
+                                    <p>Elektronika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list8">
+                                    <p>Texnika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list9">
+                                    <p>Elektronika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list10">
+                                    <p>Texnika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list11">
+                                    <p>Elektronika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list12">
+                                    <p>Texnika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox3" id="listbox3">
+                                <div class="list13">
+                                    <p>Mənzillər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list14">
+                                    <p>Villalar</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list15">
+                                    <p>Qarajlar</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list16">
+                                    <p>Bağ evləri</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list17">
+                                    <p>Obyekt və ofislər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list18">
+                                    <p>Torpaq sahələri</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox4" id="listbox4">
+                                <div class="list19">
+                                    <p>BMW</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list20">
+                                    <p>PORSCHE</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list21">
+                                    <p>LAMBORGHINI</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list22">
+                                    <p>CADILLAC</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list23">
+                                    <p>BENTLEY</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list24">
+                                    <p>RANGE ROVER</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox5" id="listbox5">
+                                <div class="list25">
+                                    <p>Daraq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list26">
+                                    <p>Güzgü</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list27">
+                                    <p>Daraq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list28">
+                                    <p>Güzgü</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list29">
+                                    <p>Daraq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list30">
+                                    <p>Güzgü</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox6" id="listbox6">
+                                <div class="list31">
+                                    <p>Hobbi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list32">
+                                    <p>Asude</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list33">
+                                    <p>Hobbi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list34">
+                                    <p>Asude</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list35">
+                                    <p>Hobbi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list36">
+                                    <p>Asude</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox7" id="listbox7">
+                                <div class="list37">
+                                    <p>Uşaq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list38">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list39">
+                                    <p>Uşaq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list40">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list41">
+                                    <p>Uşaq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list42">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox8" id="listbox8">
+                                <div class="list43">
+                                    <p>Heyvan</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list44">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list45">
+                                    <p>Ləvazimatlar</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list46">
+                                    <p>Heyvan</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list47">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list48">
+                                    <p>Ləvazimatlar</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox9" id="listbox9">
+                                <div class="list49">
+                                    <p>Frontend</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list50">
+                                    <p>Backend</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list51">
+                                    <p>Data analitik</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list52">
+                                    <p>Full-stack</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list53">
+                                    <p>Mobil App</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list54">
+                                    <p>Təmir</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox10" id="listbox10">
+                                <div class="list55">
+                                    <p>Digər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list56">
+                                    <p>Xidmətlər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list57">
+                                    <p>Digər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list58">
+                                    <p>Xidmətlər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list59">
+                                    <p>Digər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list60">
+                                    <p>Xidmətlər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </diV>
+                        <div class="popular-search">
+                            <div class="main-box">
+                                <ul>
+                                    <li class="title">populyar axtarışlar</li>
+                                    <li class="word">Bakcell nömrələri</li>
+                                    <li class="word">Xiomit</li>
+                                    <li class="word">Ev alqı satqısı</li>
+                                    <li class="word">Maşın elanları</li>
+                                    <li class="word">Kirayə bağ evi</li>
+                                    <li class="word">Mətbəx mebelləri</li>
+                                    <li class="word">Nar nömrələri</li>
+                                    <li class="word">Azercell nömrələri</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
    
             </div>
+
         </div>
 
     </section>
@@ -227,7 +506,9 @@
                             </div>
                             <div class="box">
                                 <div class="email">
-                                    <input type="email" placeholder="Emailiniz daxil edin">
+                                    <input type="email" placeholder="Emailinizi daxil edin" id="emailInput">
+                                    <span id="span">(+994)</span> <select id="numcode"><option>51</option><option>50</option><option>55</option><option>70</option></select>
+                                    <input type="tel" placeholder="428 47 03" id="mobileInput">
                                 </div>
                             </div>
                         </div>
@@ -237,7 +518,8 @@
                             </div>
                             <div class="box">
                                 <div class="password">
-                                    <input type="password" placeholder="Şifrənizi daxil edin">
+                                    <input type="password" placeholder="Şifrənizi daxil edin" id="passwordInput">
+                                    <i class="fa-solid fa-eye-slash" id="fa-solid"></i>
                                 </div>
                             </div>
                         </div>
@@ -246,20 +528,254 @@
                                 <input type="checkbox" checked="checked">
                                 <span class="checkmark"></span>
                             </label>
-                            <p>Şifrəni unutdum</p>
+                            <p id="forgotPassModal">Şifrəni unutdum</p>
                         </div>
                         <div class="daxilol">
-                            <button>Daxil ol</button>
+                            <button id="daxilOl">Daxil ol</button>
                         </div>
                         <div class="text">
                             <p>Saytımızda yenisiz? o zaman</p>
                         </div>
                         <div class="qeydiyyat">
-                            <button>Qeydiyyatdan keçin</button>
+                            <button id="qeydiyyatBtn">Qeydiyyatdan keçin</button>
                         </div>
                      </div>
 
                  </div>
+            </div>
+
+
+            <div class="forgot-password" id="forgotpassword" style="display: none;">
+                <div class="main-box">
+                    <div class="title">
+                        <h1>Şifrəmi unutdum</h1>
+                        <i class="fa-solid fa-x" id="xForgotPass"></i>
+                    </div>
+                    <div class="text">
+                        <p>Narahat olmayın biz sizə daxil olmaq üçün kod göndərəcəyik </p>
+                    </div>
+                    <div class="main-box">
+                         <div class="options-box">
+                             <div class="option-email animation3" id="optionEmail">
+                                <p>Email</p>
+                             </div>
+                             <div class="option-phone" id="optionPhone">
+                                <p>Mobil nömrə</p>
+                             </div>
+                         </div>
+                         <div class="form-box">
+                             <div class="input-box">
+                                 <div class="name">
+                                    <p id="pMail">Email</p>
+                                    <p id="pTel">Mobil nömrə</p>
+                                 </div>
+                                 <div class="hero-box">
+                                     <div class="input">
+                                        <input type="email" required placeholder="Emailinizi daxil edin" id="mailPassInput">
+                                        <input type="tel" required placeholder="Mobil nömrənizi daxil edin" id="telPassInput">
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="button">
+                                <button id="buttonMail">Linki göndər</button>
+                                <button id="buttonTel">Şifrəmi yenilə</button>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="check-email-modal" id="checkEmailModal" style="display: none;">
+                <div class="main-box">
+                    <div class="title-checkmailmodal">
+                        <h1>E-mailinizi yoxlayın</h1>
+                        <i class="fa-solid fa-x" id="xCheckEmail"></i>
+                    </div>
+                    <div class="text">
+                        <p>Lazımi məlumatlar <span>example@az</span> ünvanına göndərildi.<br>
+                           Emailinizə göndərilən 4 xanalı kodu girin</p>
+                    </div>
+                    <div class="main-box">
+                        <div class="code-box">
+                            <div class="boxes">
+                                <input type="number" class="number-input">
+                                <input type="number" class="number-input">
+                                <input type="number" class="number-input">
+                                <input type="number" class="number-input">
+                                <p id="geriSayim"></p>
+                            </div>
+                            <div class="button">
+                                <button id="continueButton1">Davam edin</button>
+                            </div>
+                            <div class="other-options">
+                                <p class="p1">Emaili yenilə</p>
+                                <p class="p2">Kodu yenidən göndər</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="check-phone-modal" id="checkPhoneModal" style="display: none;">
+                <div class="main-box">
+                    <div class="title-checkphonemodal">
+                        <h1>Telefonunuzu yoxlayın</h1>
+                        <i class="fa-solid fa-x" id="xCheckPhone"></i>
+                    </div>
+                    <div class="text">
+                        <p>Lazımi məlumatlar <span>(+994) 51 428 47 03</span> ünvanına göndərildi.<br>
+                           Telefonunuza göndərilən 4 xanalı kodu girin</p>
+                    </div>
+                    <div class="main-box">
+                        <div class="code-box">
+                            <div class="boxes">
+                                <input type="number" class="number-input1">
+                                <input type="number" class="number-input1">
+                                <input type="number" class="number-input1">
+                                <input type="number" class="number-input1">
+                                <p id="geriSayimPhone"></p>
+                            </div>
+                            <div class="button">
+                                <button id="continueButton">Davam edin</button>
+                            </div>
+                            <div class="other-options">
+                                <p class="p1">Nömrəni yenilə</p>
+                                <p class="p2">Kodu yenidən göndər</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="reset-password" id="resetPassword" style="display: none;">
+                <div class="main-box">
+                    <div class="title-resetpass">
+                        <h1>Yeni şifrənizi yazın</h1>
+                        <i class="fa-solid fa-x" id="xResetPass"></i>
+                    </div>
+                    <div class="resetform-box">
+                        <div class="inputbox1">
+                            <div class="name">
+                                <p>Yeni şifrə</p>
+                            </div>
+                            <div class="box-input1">
+                                <div class="input">
+                                    <input type="password" placeholder=" Yeni şifrə yaradın" id="passInput2">
+                                    <i class="fa-solid fa-eye-slash" id="faSolid1"></i>
+                                </div>
+                                <div class="bar">
+                                    <div class="strength"></div><div class="strength"></div><div class="strength"></div><div class="strength"></div><div class="strength"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputbox2">
+                           <div class="name">
+                              <p>Yeni şifrənin təkrarı</p>
+                           </div>
+                           <div class="box-input2">
+                               <div class="input">
+                                  <input type="password" placeholder="Şifrəni yenidən daxil edin " id="passInput3">
+                                  <i class="fa-solid fa-eye-slash" id="faSolid2"></i>
+                               </div>
+                           </div>
+                           <div class="check-box">
+                                <label class="container">Şifrəni xatırla
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                           </div>
+                           <div class="button">
+                               <button id="changePasswordBtn">Şifrəmi yenilə</button>
+                           </div>
+                           <div class="daxilol-button">
+                               <button id="daxilOlButton" style="display: none;">Daxil Olun</button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="new-user-modal" id="newUserModal" style="display: none;">
+                <div class="main-box">
+                    <div class="modal-title">
+                        <h1>Qeydiyyat</h1>
+                        <i class="fa-solid fa-x" id="xNewUser"></i>
+                    </div>
+                    <div class="form-box">
+                        <div class="inputbox1">
+                            <div class="name">
+                                <p>Ad soyad</p>
+                            </div>
+                            <div class="box-input1">
+                                <div class="input">
+                                    <input type="text" placeholder="Ad və soyad daxil edin">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputbox2">
+                            <div class="name">
+                                <p>Email</p>
+                            </div>
+                            <div class="box-input1">
+                                <div class="input">
+                                    <input type="email" placeholder="Emailinizi daxil edin">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputbox3">
+                            <div class="name">
+                                <p>Mobil nömrə</p>
+                            </div>
+                            <div class="box-input1">
+                                <div class="input">
+                                    <span>(+994)</span> <select><option>51</option><option>50</option><option>55</option><option>70</option><option>77</option></select>
+                                    <input type="tel" placeholder="428 47 03">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputbox4">
+                            <div class="name">
+                                <p>Şifrə</p>
+                            </div>
+                            <div class="box-input1">
+                                <div class="input">
+                                    <input type="password" placeholder="Şifrə daxil edin" id="passNewUser">
+                                    <i class="fa-solid fa-eye-slash" id="eyeNewUser"></i>
+                                </div>
+                                <div class="bar">
+                                    <div class="strength1"></div><div class="strength1"></div><div class="strength1"></div><div class="strength1"></div><div class="strength1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputbox5">
+                            <div class="input">
+                                <input type="number" placeholder="Şəkildəki kodu daxil edin">
+                            </div>
+                            <div class="photo-code">
+                                <p>5064</p>
+                            </div>
+                        </div>
+                        <div class="check-box">
+                            <label class="container"><span>İstifadəçi şərtləri</span> ilə razıyam
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="button-1">
+                            <button>Davam edin</button>
+                        </div>
+                        <div class="text">
+                            <p>Hesabınız var? o zaman</p>
+                        </div>
+                        <div class="button-2">
+                            <button id="daxilOlNewUser">Daxil olun</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
          </div>

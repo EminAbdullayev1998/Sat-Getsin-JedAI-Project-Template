@@ -115,6 +115,7 @@ header .container .box2 button p span {
   margin: 0 auto;
 }
 .One .container .nav {
+  position: relative;
   display: flex;
   width: 100%;
   height: 150px;
@@ -166,6 +167,9 @@ header .container .box2 button p span {
 .One .container .nav .input-box .main-box .category p {
   font-size: 14px;
   margin-left: 10px;
+}
+.One .container .nav .input-box .main-box .active-category {
+  background-color: #FBFBFD;
 }
 .One .container .nav .input-box .main-box input {
   width: 60%;
@@ -244,6 +248,1791 @@ header .container .box2 button p span {
 }
 .One .container .nav .create-button a span {
   font-size: 30px;
+}
+.One .container .nav .categories-modal {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  z-index: 98;
+}
+.One .container .nav .categories-modal .container {
+  display: flex;
+  max-width: 1200px;
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+.One .container .nav .categories-modal .container .categories {
+  width: 23%;
+  height: 400px;
+  border-right: 1px solid rgb(232, 232, 232);
+}
+.One .container .nav .categories-modal .container .categories .category1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category1:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category1 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #FFF4F9;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category1 .circle .fa-house {
+  color: rgb(243, 153, 190);
+}
+.One .container .nav .categories-modal .container .categories .category1 p {
+  margin-left: 30px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category1 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 100px;
+}
+.One .container .nav .categories-modal .container .categories .category2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category2:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category2 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(227, 237, 255);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category2 .circle .fa-mobile {
+  color: rgb(160, 175, 244);
+}
+.One .container .nav .categories-modal .container .categories .category2 p {
+  margin-left: 28px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category2 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 25px;
+}
+.One .container .nav .categories-modal .container .categories .category3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category3:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category3 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 238, 255);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category3 .circle .fa-building {
+  color: rgb(130, 172, 239);
+}
+.One .container .nav .categories-modal .container .categories .category3 p {
+  margin-left: 28px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category3 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 60px;
+}
+.One .container .nav .categories-modal .container .categories .category4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category4:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category4 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(254, 235, 233);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category4 .circle .fa-car {
+  color: rgb(238, 153, 145);
+}
+.One .container .nav .categories-modal .container .categories .category4 p {
+  margin-left: 28px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category4 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 102px;
+}
+.One .container .nav .categories-modal .container .categories .category5 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category5:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category5 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(222, 244, 238);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category5 .circle .fa-mitten {
+  color: rgb(141, 200, 185);
+}
+.One .container .nav .categories-modal .container .categories .category5 p {
+  margin-left: 28px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category5 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 80px;
+}
+.One .container .nav .categories-modal .container .categories .category6 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category6:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category6 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(253, 234, 243);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category6 .circle .fa-gamepad {
+  color: rgb(229, 169, 195);
+}
+.One .container .nav .categories-modal .container .categories .category6 p {
+  margin-left: 28px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category6 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 80px;
+}
+.One .container .nav .categories-modal .container .categories .category7 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category7:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category7 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(253, 253, 234);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category7 .circle .fa-baby-carriage {
+  color: rgb(189, 191, 78);
+}
+.One .container .nav .categories-modal .container .categories .category7 p {
+  margin-left: 28px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category7 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 90px;
+}
+.One .container .nav .categories-modal .container .categories .category8 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category8:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category8 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(234, 252, 253);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category8 .circle .fa-dog {
+  color: rgb(87, 208, 215);
+}
+.One .container .nav .categories-modal .container .categories .category8 p {
+  margin-left: 28px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category8 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 113px;
+}
+.One .container .nav .categories-modal .container .categories .category9 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category9:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category9 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(254, 235, 233);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category9 .circle .fa-user-doctor {
+  color: rgb(238, 153, 145);
+}
+.One .container .nav .categories-modal .container .categories .category9 p {
+  margin-left: 28px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category9 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 80px;
+}
+.One .container .nav .categories-modal .container .categories .category10 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .categories .category10:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .categories .category10 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 238, 255);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.One .container .nav .categories-modal .container .categories .category10 .circle .fa-wrench {
+  color: rgb(130, 172, 239);
+}
+.One .container .nav .categories-modal .container .categories .category10 p {
+  margin-left: 28px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.One .container .nav .categories-modal .container .categories .category10 .fa-chevron-right {
+  color: rgb(168, 168, 170);
+  margin-left: 62px;
+}
+.One .container .nav .categories-modal .container .categories .active-category {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list {
+  display: flex;
+  width: 47%;
+  height: 400px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list1:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list1 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list1 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list2:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list2 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list2 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list3:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list3 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list3 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list4:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list4 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list4 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list5:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list5 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list5 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list6:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list6 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox1 .list6 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list7:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list7 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list7 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list8:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list8 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list8 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list9:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list9 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list9 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list10 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list10:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list10 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list10 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list11 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list11:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list11 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list11 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list12:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list12 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox2 .list12 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list13 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list13:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list13 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list13 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list14 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list14:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list14 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list14 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list15 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list15:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list15 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list15 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list16 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list16:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list16 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list16 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list17 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list17:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list17 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list17 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list18 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list18:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list18 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox3 .list18 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list19 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list19:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list19 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list19 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list20 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list20:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list20 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list20 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list21 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list21:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list21 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list21 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list22 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list22:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list22 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list22 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list23 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list23:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list23 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list23 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list24 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list24:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list24 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox4 .list24 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list25 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list25:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list25 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list25 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list26 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list26:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list26 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list26 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list27 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list27:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list27 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list27 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list28 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list28:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list28 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list28 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list29 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list29:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list29 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list29 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list30 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list30:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list30 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox5 .list30 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list31 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list31:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list31 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list31 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list32 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list32:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list32 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list32 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list33 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list33:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list33 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list33 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list34 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list34:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list34 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list34 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list35 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list35:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list35 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list35 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list36 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list36:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list36 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox6 .list36 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list37 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list37:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list37 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list37 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list38 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list38:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list38 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list38 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list39 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list39:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list39 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list39 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list40 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list40:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list40 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list40 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list41 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list41:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list41 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list41 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list42 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list42:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list42 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox7 .list42 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list43 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list43:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list43 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list43 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list44 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list44:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list44 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list44 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list45 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list45:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list45 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list45 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list46 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list46:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list46 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list46 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list47 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list47:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list47 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list47 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list48 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list48:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list48 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox8 .list48 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list49 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list49:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list49 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list49 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list50 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list50:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list50 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list50 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list51 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list51:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list51 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list51 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list52 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list52:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list52 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list52 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list53 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list53:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list53 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list53 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list54 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list54:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list54 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox9 .list54 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 {
+  display: none;
+  width: 35%;
+  height: 240px;
+  background-color: white;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list55 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list55:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list55 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list55 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list56 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list56:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list56 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list56 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list57 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list57:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list57 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list57 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list58 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list58:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list58 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list58 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list59 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list59:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list59 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list59 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list60 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list60:hover {
+  background-color: rgb(247, 247, 252);
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list60 p {
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-left: 20px;
+}
+.One .container .nav .categories-modal .container .category-list .listbox10 .list60 .fa-chevron-right {
+  color: rgb(125, 128, 146);
+  padding-right: 20px;
+}
+.One .container .nav .categories-modal .container .popular-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 400px;
+}
+.One .container .nav .categories-modal .container .popular-search .main-box {
+  width: 70%;
+  height: 350px;
+  background: #FBFBFD;
+  border: 1px solid rgba(106, 91, 205, 0.1);
+  border-radius: 5px;
+}
+.One .container .nav .categories-modal .container .popular-search .main-box li {
+  margin-left: 20px;
+}
+.One .container .nav .categories-modal .container .popular-search .main-box .title {
+  color: rgb(106, 91, 205);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: DM Sans;
+  margin-top: 20px;
+}
+.One .container .nav .categories-modal .container .popular-search .main-box .word {
+  padding-top: 20px;
+  color: rgb(125, 128, 146);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: DM Sans;
 }
 
 .Two {
@@ -705,8 +2494,9 @@ header .container .box2 button p span {
   position: fixed;
   align-items: center;
   justify-content: center;
-  top: 100px;
-  left: 460px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 500px;
   height: 600px;
   background-color: rgb(255, 255, 255);
@@ -737,6 +2527,9 @@ header .container .box2 button p span {
   font-size: 25px;
   cursor: pointer;
   color: rgb(182, 181, 191);
+}
+.Two .container .register-box .main-box .modal-title .fa-x:hover {
+  color: rgb(148, 147, 157);
 }
 .Two .container .register-box .main-box .modal-about {
   display: flex;
@@ -848,12 +2641,43 @@ header .container .box2 button p span {
   border-radius: 5px;
 }
 .Two .container .register-box .main-box .form-box .email-input .box .email input {
-  width: 90%;
+  width: 85%;
   height: 30px;
   border: none;
   background-color: #EFF3FA;
 }
 .Two .container .register-box .main-box .form-box .email-input .box .email input:focus-visible {
+  outline: none;
+}
+.Two .container .register-box .main-box .form-box .email-input .box .email #mobileInput {
+  display: none;
+  width: 55%;
+  height: 30px;
+}
+.Two .container .register-box .main-box .form-box .email-input .box .email #mobileInput::-moz-placeholder {
+  color: rgb(111, 114, 132);
+}
+.Two .container .register-box .main-box .form-box .email-input .box .email #mobileInput::placeholder {
+  color: rgb(111, 114, 132);
+}
+.Two .container .register-box .main-box .form-box .email-input .box .email #span {
+  display: none;
+  color: rgb(72, 75, 94);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: DM Sans;
+  padding-right: 5px;
+}
+.Two .container .register-box .main-box .form-box .email-input .box .email #numcode {
+  display: none;
+  border: none;
+  background-color: #EFF3FA;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.Two .container .register-box .main-box .form-box .email-input .box .email #numcode:focus {
   outline: none;
 }
 .Two .container .register-box .main-box .form-box .password-input {
@@ -891,13 +2715,17 @@ header .container .box2 button p span {
   border-radius: 5px;
 }
 .Two .container .register-box .main-box .form-box .password-input .box .password input {
-  width: 90%;
+  width: 80%;
   height: 30px;
   border: none;
   background-color: #EFF3FA;
 }
 .Two .container .register-box .main-box .form-box .password-input .box .password input:focus-visible {
   outline: none;
+}
+.Two .container .register-box .main-box .form-box .password-input .box .password .fa-solid {
+  cursor: pointer;
+  color: rgb(190, 186, 215);
 }
 .Two .container .register-box .main-box .form-box .forgotpass {
   position: relative;
@@ -983,6 +2811,10 @@ header .container .box2 button p span {
   font-family: DM Sans;
   letter-spacing: 2px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.Two .container .register-box .main-box .form-box .daxilol button:hover {
+  background-color: rgb(187, 186, 194);
 }
 .Two .container .register-box .main-box .form-box .text {
   display: flex;
@@ -1013,7 +2845,1165 @@ header .container .box2 button p span {
   border: 1px solid rgb(106, 91, 205);
   background-color: white;
   border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: DM Sans;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.Two .container .register-box .main-box .form-box .qeydiyyat button:hover {
+  color: white;
+  background-color: rgb(106, 91, 205);
+}
+.Two .container .forgot-password {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  z-index: 99;
+}
+.Two .container .forgot-password .main-box {
+  width: 450px;
+  height: 500px;
+}
+.Two .container .forgot-password .main-box .title {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .forgot-password .main-box .title h1 {
+  color: rgb(72, 75, 94);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: DM Sans;
+}
+.Two .container .forgot-password .main-box .title .fa-x {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(182, 181, 191);
+}
+.Two .container .forgot-password .main-box .title .fa-x:hover {
+  color: rgb(165, 164, 173);
+}
+.Two .container .forgot-password .main-box .text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .forgot-password .main-box .text p {
+  color: rgb(151, 151, 152);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.Two .container .forgot-password .main-box .main-box {
+  width: 100%;
+  height: 300px;
+}
+.Two .container .forgot-password .main-box .main-box .options-box {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .forgot-password .main-box .main-box .options-box ::after {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(171, 169, 183);
+}
+.Two .container .forgot-password .main-box .main-box .options-box .option-email {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 40px;
+  cursor: pointer;
+}
+.Two .container .forgot-password .main-box .main-box .options-box .option-email p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  color: rgb(171, 172, 180);
+}
+.Two .container .forgot-password .main-box .main-box .options-box .animation3 ::after {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+  z-index: 10;
+  background-color: rgb(106, 91, 205);
+}
+.Two .container .forgot-password .main-box .main-box .options-box .animation3 p {
+  color: rgb(106, 91, 205) !important;
+}
+.Two .container .forgot-password .main-box .main-box .options-box .option-phone {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 22%;
+  height: 40px;
+  cursor: pointer;
+}
+.Two .container .forgot-password .main-box .main-box .options-box .option-phone p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: DM Sans;
+  color: rgb(171, 172, 180);
+}
+.Two .container .forgot-password .main-box .main-box .form-box {
+  width: 100%;
+  height: auto;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box {
+  width: 100%;
+  height: 80px;
+  padding-top: 20px;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .name p {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(171, 169, 183);
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .name #pMail {
+  display: block;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .name #pTel {
+  display: none;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .hero-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .hero-box .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 40px;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .hero-box .input input {
+  width: 90%;
+  height: 25px;
+  border: none;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .hero-box .input input:focus-visible {
+  outline: none;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .hero-box .input input ::-moz-placeholder {
+  color: rgb(171, 169, 183);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .hero-box .input input ::placeholder {
+  color: rgb(171, 169, 183);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .hero-box .input #mailPassInput {
+  display: block;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .input-box .hero-box .input #telPassInput {
+  display: none;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 110px;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .button button {
+  width: 70%;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(233, 232, 238);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: DM Sans;
+  font-style: bold;
+  transition: all 0.5s;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .button button:hover {
+  background-color: rgb(205, 204, 209);
+}
+.Two .container .forgot-password .main-box .main-box .form-box .button #buttonMail {
+  display: block;
+}
+.Two .container .forgot-password .main-box .main-box .form-box .button #buttonTel {
+  display: none;
+}
+.Two .container .check-email-modal {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  z-index: 99;
+}
+.Two .container .check-email-modal .main-box {
+  width: 90%;
+  height: 450px;
+}
+.Two .container .check-email-modal .main-box .title-checkmailmodal {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .check-email-modal .main-box .title-checkmailmodal h1 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: DM Sans;
+  color: rgb(72, 75, 94);
+}
+.Two .container .check-email-modal .main-box .title-checkmailmodal .fa-x {
+  position: absolute;
+  right: 0px;
+  top: -5px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(182, 181, 191);
+}
+.Two .container .check-email-modal .main-box .title-checkmailmodal .fa-x:hover {
+  color: rgb(156, 155, 165);
+}
+.Two .container .check-email-modal .main-box .text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .check-email-modal .main-box .text span {
+  color: rgb(72, 75, 94);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Two .container .check-email-modal .main-box .text p {
+  color: rgb(151, 151, 152);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Two .container .check-email-modal .main-box .main-box {
+  width: 100%;
+  height: 300px;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box {
+  width: 70%;
+  height: 300px;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .boxes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .boxes input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  height: 50px;
+  border: none;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 25px;
+  background-color: transparent;
+  border-bottom: 4px solid rgb(188, 187, 194);
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .boxes input:focus-visible {
+  outline: none;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .boxes input::-webkit-outer-spin-button,
+.Two .container .check-email-modal .main-box .main-box .code-box .boxes input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .boxes p {
+  position: absolute;
+  top: 115px;
+  right: 90px;
+  color: rgb(171, 169, 183);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: DM Sans;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .button {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .button button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(233, 232, 238);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: DM Sans;
+  letter-spacing: 0.02em;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .button button:hover {
+  background-color: rgb(197, 195, 205);
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .other-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .other-options .p1 {
+  color: rgb(72, 75, 94);
+  text-decoration-line: underline;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: DM Sans;
+  cursor: pointer;
+}
+.Two .container .check-email-modal .main-box .main-box .code-box .other-options .p2 {
+  color: rgb(106, 91, 205);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: DM Sans;
+  cursor: pointer;
+}
+.Two .container .check-phone-modal {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  z-index: 99;
+}
+.Two .container .check-phone-modal .main-box {
+  width: 90%;
+  height: 450px;
+}
+.Two .container .check-phone-modal .main-box .title-checkphonemodal {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .check-phone-modal .main-box .title-checkphonemodal h1 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: DM Sans;
+  color: rgb(72, 75, 94);
+}
+.Two .container .check-phone-modal .main-box .title-checkphonemodal .fa-x {
+  position: absolute;
+  right: 0px;
+  top: -5px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(182, 181, 191);
+}
+.Two .container .check-phone-modal .main-box .title-checkphonemodal .fa-x:hover {
+  color: rgb(156, 155, 165);
+}
+.Two .container .check-phone-modal .main-box .text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .check-phone-modal .main-box .text span {
+  color: rgb(72, 75, 94);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Two .container .check-phone-modal .main-box .text p {
+  color: rgb(151, 151, 152);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Two .container .check-phone-modal .main-box .main-box {
+  width: 100%;
+  height: 300px;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box {
+  width: 70%;
+  height: 300px;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .boxes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .boxes input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  height: 50px;
+  border: none;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 25px;
+  background-color: transparent;
+  border-bottom: 4px solid rgb(188, 187, 194);
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .boxes input:focus-visible {
+  outline: none;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .boxes input::-webkit-outer-spin-button,
+.Two .container .check-phone-modal .main-box .main-box .code-box .boxes input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .boxes p {
+  position: absolute;
+  top: 115px;
+  right: 90px;
+  color: rgb(171, 169, 183);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: DM Sans;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .button {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .button button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(233, 232, 238);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: DM Sans;
+  letter-spacing: 0.02em;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .button button:hover {
+  background-color: rgb(197, 195, 205);
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .other-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .other-options .p1 {
+  color: rgb(72, 75, 94);
+  text-decoration-line: underline;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: DM Sans;
+  cursor: pointer;
+}
+.Two .container .check-phone-modal .main-box .main-box .code-box .other-options .p2 {
+  color: rgb(106, 91, 205);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: DM Sans;
+  cursor: pointer;
+}
+.Two .container .reset-password {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  z-index: 99;
+}
+.Two .container .reset-password .main-box {
+  width: 90%;
+  height: auto;
+}
+.Two .container .reset-password .main-box .title-resetpass {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .reset-password .main-box .title-resetpass h1 {
+  color: rgb(72, 75, 94);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Two .container .reset-password .main-box .title-resetpass .fa-x {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(182, 181, 191);
+}
+.Two .container .reset-password .main-box .title-resetpass .fa-x:hover {
+  color: rgb(156, 155, 165);
+}
+.Two .container .reset-password .main-box .resetform-box {
+  width: 100%;
+  height: auto;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 {
+  width: 100%;
+  height: auto;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 .name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding-top: 20px;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 .name p {
+  color: rgb(171, 169, 183);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 .box-input1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding-bottom: 10px;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 .box-input1 .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 40px;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 .box-input1 .input .fa-solid {
+  color: rgb(190, 186, 215);
+  font-size: 20px;
+  cursor: pointer;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 .box-input1 .input input {
+  width: 80%;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 .box-input1 .input input:focus-visible {
+  outline: none;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 .box-input1 .bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 0px;
+  bottom: 3px;
+  width: 30%;
+  height: 10px;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox1 .box-input1 .bar .strength {
+  width: 15%;
+  height: 3px;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox2 {
+  width: 100%;
+  height: auto;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox2 .name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding-top: 15px;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox2 .name p {
+  color: rgb(171, 169, 183);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox2 .box-input2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox2 .box-input2 .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox2 .box-input2 .input .fa-solid {
+  color: rgb(190, 186, 215);
+  font-size: 20px;
+  cursor: pointer;
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox2 .box-input2 .input input {
+  width: 80%;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .reset-password .main-box .resetform-box .inputbox2 .box-input2 .input input:focus-visible {
+  outline: none;
+}
+.Two .container .reset-password .main-box .resetform-box .check-box {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  padding-bottom: 10px;
+}
+.Two .container .reset-password .main-box .resetform-box .check-box .container {
+  position: absolute;
+  top: 10px;
+  left: 1%;
+  width: 25%;
+  height: 20px;
+  color: rgb(171, 169, 183);
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.Two .container .reset-password .main-box .resetform-box .check-box .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.Two .container .reset-password .main-box .resetform-box .check-box .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #EFF3FA;
+}
+.Two .container .reset-password .main-box .resetform-box .check-box .container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.Two .container .reset-password .main-box .resetform-box .check-box .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.Two .container .reset-password .main-box .resetform-box .check-box .container input:checked ~ .checkmark:after {
+  display: block;
+}
+.Two .container .reset-password .main-box .resetform-box .check-box .container .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.Two .container .reset-password .main-box .resetform-box .button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+.Two .container .reset-password .main-box .resetform-box .button button {
+  width: 70%;
+  height: 50px;
+  color: white;
+  background-color: rgb(106, 91, 205);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: DM Sans;
+}
+.Two .container .reset-password .main-box .resetform-box .button button:hover {
+  background-color: rgb(98, 85, 189);
+}
+.Two .container .reset-password .main-box .resetform-box .daxilol-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+.Two .container .reset-password .main-box .resetform-box .daxilol-button button {
+  width: 70%;
+  height: 50px;
+  color: rgb(106, 91, 205);
+  border: 1px solid rgb(106, 91, 205);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: DM Sans;
+}
+.Two .container .new-user-modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+  z-index: 99;
+}
+.Two .container .new-user-modal .main-box {
+  width: 90%;
+  height: auto;
+}
+.Two .container .new-user-modal .main-box .modal-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .new-user-modal .main-box .modal-title h1 {
+  color: rgb(72, 75, 94);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Two .container .new-user-modal .main-box .modal-title .fa-x {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(182, 181, 191);
+}
+.Two .container .new-user-modal .main-box .modal-title .fa-x:hover {
+  color: rgb(156, 155, 165);
+}
+.Two .container .new-user-modal .main-box .form-box {
+  width: 100%;
+  height: auto;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox1 {
+  width: 100%;
+  height: auto;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox1 .name {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox1 .name p {
+  color: rgb(171, 169, 183);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox1 .box-input1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox1 .box-input1 .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 40px;
+  background-color: rgb(239, 243, 250);
+  border-radius: 5px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox1 .box-input1 .input input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox1 .box-input1 .input input:focus-visible {
+  outline: none;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox2 {
+  width: 100%;
+  height: auto;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox2 .name {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 30px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox2 .name p {
+  color: rgb(171, 169, 183);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox2 .box-input1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox2 .box-input1 .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 40px;
+  background-color: rgb(239, 243, 250);
+  border-radius: 5px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox2 .box-input1 .input input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox2 .box-input1 .input input:focus-visible {
+  outline: none;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 {
+  width: 100%;
+  height: auto;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 .name {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 30px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 .name p {
+  color: rgb(171, 169, 183);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 .box-input1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 .box-input1 .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 40px;
+  background-color: rgb(239, 243, 250);
+  border-radius: 5px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 .box-input1 .input select {
+  color: rgb(72, 75, 94);
+  border: none;
+  background-color: rgb(239, 243, 250);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 .box-input1 .input select:focus {
+  outline: none;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 .box-input1 .input span {
+  color: rgb(72, 75, 94);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 .box-input1 .input input {
+  border: none;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox3 .box-input1 .input input:focus {
+  outline: none;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 {
+  width: 100%;
+  height: auto;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 .name {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 30px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 .name p {
+  color: rgb(171, 169, 183);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 .box-input1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding-bottom: 10px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 .box-input1 .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 40px;
+  background-color: rgb(239, 243, 250);
+  border-radius: 5px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 .box-input1 .input .fa-solid {
+  color: rgb(190, 186, 215);
+  font-size: 20px;
+  cursor: pointer;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 .box-input1 .input input {
+  width: 80%;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 .box-input1 .input input:focus-visible {
+  outline: none;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 .box-input1 .bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 0px;
+  bottom: 3px;
+  width: 30%;
+  height: 10px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox4 .box-input1 .bar .strength1 {
+  width: 15%;
+  height: 3px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox5 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox5 .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox5 .input input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  background-color: rgb(239, 243, 250);
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox5 .input input:focus {
+  outline: none;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox5 .input input::-webkit-outer-spin-button,
+.Two .container .new-user-modal .main-box .form-box .inputbox5 .input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox5 .photo-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid rgb(197, 195, 205);
+  margin-left: 20px;
+}
+.Two .container .new-user-modal .main-box .form-box .inputbox5 .photo-code p {
+  color: rgb(111, 114, 132);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.Two .container .new-user-modal .main-box .form-box .check-box {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .new-user-modal .main-box .form-box .check-box span {
+  color: rgb(106, 91, 205);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+.Two .container .new-user-modal .main-box .form-box .check-box .container {
+  position: absolute;
+  top: 10px;
+  left: 1%;
+  width: 45%;
+  height: 20px;
+  color: rgb(171, 169, 183);
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.Two .container .new-user-modal .main-box .form-box .check-box .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.Two .container .new-user-modal .main-box .form-box .check-box .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #EFF3FA;
+}
+.Two .container .new-user-modal .main-box .form-box .check-box .container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.Two .container .new-user-modal .main-box .form-box .check-box .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.Two .container .new-user-modal .main-box .form-box .check-box .container input:checked ~ .checkmark:after {
+  display: block;
+}
+.Two .container .new-user-modal .main-box .form-box .check-box .container .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.Two .container .new-user-modal .main-box .form-box .button-1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+.Two .container .new-user-modal .main-box .form-box .button-1 button {
+  width: 66%;
+  height: 50px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: rgb(106, 91, 205);
+}
+.Two .container .new-user-modal .main-box .form-box .text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+.Two .container .new-user-modal .main-box .form-box .text p {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 75px;
+  color: rgb(60, 54, 33);
+}
+.Two .container .new-user-modal .main-box .form-box .button-2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+.Two .container .new-user-modal .main-box .form-box .button-2 button {
+  width: 66%;
+  height: 50px;
+  border: none;
+  color: rgb(151, 151, 152);
+  cursor: pointer;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid rgb(233, 232, 238);
 }
 
 .Three {
