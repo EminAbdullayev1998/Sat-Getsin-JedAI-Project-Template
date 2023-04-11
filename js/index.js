@@ -68,13 +68,6 @@ opt6.onclick = ()=>{
 }
 
 
-document.body.onclick = e =>{
-    if (e.target !== select && e.target !== select1  && e.target !== options && e.target !== options2) {
-        options.style.display = 'none';
-        options2.style.display = 'none';
-    }
-}
-
 // =============================================================================================================
 // En son elanlar category dropdown kodlari End=================================================================
 // =============================================================================================================
@@ -699,6 +692,153 @@ daxilOlNewUser.onclick = ()=>{
 
 
 // ===========================================================================================================
+// CHECK REGISTER  modal kodlari START ======================================================================
+// ===========================================================================================================
+
+
+// inputlarin icerisine ancaq 1 reqem yazilabilsin ve avtomatik bir sonraki inputun icine focus olsun ve silinendede eynisi olsun,
+// valuesi olanda border rengi deyissin ve herflerin yazilmasina icaze vermesin
+let numberInputs2 = document.querySelectorAll('.number-input2');
+
+for (let i = 0; i < numberInputs2.length; i++) {
+    const input2 = numberInputs2[i];
+    
+    input2.addEventListener("input", function(){
+      if (this.value.length > 0){
+        this.value = this.value.slice(0,1);
+        this.style.borderBottomColor = "rgba(106, 91, 205, 1)";
+          // Input alanına bir değer girildiğinde
+          const nextInput = this.nextElementSibling;
+          if (nextInput){
+              nextInput.focus();
+          }
+      }else{
+          this.style.borderBottomColor = "rgb(188, 187, 194)";
+      };
+    });
+  
+  
+    input2.addEventListener("keydown", function(e) {
+      if (e.key === "Backspace" && this.value.length === 0) {
+        const prevInput = this.previousElementSibling;
+        if (prevInput) {
+          prevInput.focus();
+        }
+      }
+    });
+
+
+    // klaviatura ile herflerin yazilmasina icaze vermeyen kodlar
+    input2.addEventListener("keypress", function(event) {
+        if (event.which < 48 || event.which > 57) {
+            event.preventDefault();
+        }
+    });
+  
+    // copy paste ile herflerin yazilmasina icaze vermeyen kodlar
+    input2.addEventListener("paste", function(event) {
+        event.preventDefault();
+        let pasteData = event.clipboardData.getData('text/plain');
+        pasteData = pasteData.replace(/[^\d]/g, '');
+        document.execCommand('insertText', false, pasteData);
+    });
+  
+
+    input2.setAttribute("maxlength", 1);
+    
+  };
+
+
+
+  // 1:55 saniye geri sayim timer kodlari ve her defe modal acildiginda baslayir tekrar geri sayim
+    let zaman2 = 115;
+    let geriSayim2;
+    
+    function startTimer2() {
+        geriSayim2 = setInterval(function () {
+            let deqiqe = Math.floor(zaman2/60);
+            let saniye = zaman2 % 60 ;
+    
+            // saniyeleri iki reqemli etmek
+            if (saniye < 10) {
+                saniye = "0" + saniye;
+            }
+    
+            // geri sayimi gostermek
+            document.getElementById('timerCheckRegister').innerHTML = deqiqe + ":" + saniye;
+    
+            // zaman azalsin
+            zaman2--; 
+    
+            // zaman qurtaranda dayansin ve yazi cixsin
+            if (zaman2 < 0) {
+                clearInterval(geriSayim2);
+                document.getElementById('timerCheckRegister').innerHTML = "Zaman bitdi!"
+            }
+    
+        },1000);  // her 1 saniyede bir isledir
+    }
+    
+    function stopTimer2() {
+        clearInterval(geriSayim2);
+        zaman2 = 115;
+    }
+    
+    function showmodal2() {
+        checkRegisterModal.style.display = 'flex';
+        newUserModal.style.display = 'none';
+        startTimer2();
+    }
+    
+    function hidemodal2() {
+        checkRegisterModal.style.display = 'none';
+        stopTimer2();
+    }
+    
+    continueNewUser.addEventListener('click', showmodal2);
+    xCheckRegister.addEventListener('click', hidemodal2);
+
+
+    // inputlari dolu oldugunda butonun tiklandiginda rengi ve yazisi deyissin 
+    let numberInputs3 = document.querySelectorAll('.number-input2');
+
+    confirmBtn.addEventListener('click', function () {
+
+        numberInputs3.forEach((input)=>{
+            if (input.value !== '') {
+                confirmBtn.style.backgroundColor = 'rgba(91, 205, 116, 1)';
+                confirmBtn.innerText = 'Qeydiyyatınız tamamlandı';
+                daxilOlCheckRegister.style.display = 'block';
+                textCheckRegister.style.display = 'none';
+            }else{
+                confirmBtn.style.backgroundColor = 'rgba(106, 91, 205, 1)';
+                confirmBtn.innerText = 'Təsdiq edin';
+                daxilOlCheckRegister.style.display = 'none';
+                textCheckRegister.style.display = 'flex';
+            }
+        });
+
+    });
+
+
+
+    daxilOlCheckRegister.onclick = ()=>{
+        registerbox.style.display = 'flex';
+        checkRegisterModal.style.display = 'none';
+        hidemodal2();
+    }
+
+
+
+// ===========================================================================================================
+// CHECK REGISTER  modal kodlari END =========================================================================
+// ===========================================================================================================
+
+
+
+
+
+// ===========================================================================================================
 // Categories modal js kodlari START =========================================================================
 // ===========================================================================================================
 
@@ -724,6 +864,22 @@ category1.onclick = ()=>{
     category8.classList.remove('active-category');
     category9.classList.remove('active-category');
     category10.classList.remove('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'block';
+        listbox12.style.display = 'none';
+        listbox13.style.display = 'none';
+        listbox14.style.display = 'none';
+        listbox15.style.display = 'none';
+        listbox16.style.display = 'none';
+        listbox17.style.display = 'none';
+        listbox18.style.display = 'none';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'none';
+    }
 };
 
 category2.onclick = ()=>{
@@ -748,6 +904,22 @@ category2.onclick = ()=>{
     category8.classList.remove('active-category');
     category9.classList.remove('active-category');
     category10.classList.remove('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'none';
+        listbox12.style.display = 'block';
+        listbox13.style.display = 'none';
+        listbox14.style.display = 'none';
+        listbox15.style.display = 'none';
+        listbox16.style.display = 'none';
+        listbox17.style.display = 'none';
+        listbox18.style.display = 'none';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'none';
+    }
 };
 
 category3.onclick = ()=>{
@@ -772,6 +944,22 @@ category3.onclick = ()=>{
     category8.classList.remove('active-category');
     category9.classList.remove('active-category');
     category10.classList.remove('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'none';
+        listbox12.style.display = 'none';
+        listbox13.style.display = 'block';
+        listbox14.style.display = 'none';
+        listbox15.style.display = 'none';
+        listbox16.style.display = 'none';
+        listbox17.style.display = 'none';
+        listbox18.style.display = 'none';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'none';
+    }
 }
 
 category4.onclick = ()=>{
@@ -796,6 +984,22 @@ category4.onclick = ()=>{
     category8.classList.remove('active-category');
     category9.classList.remove('active-category');
     category10.classList.remove('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'none';
+        listbox12.style.display = 'none';
+        listbox13.style.display = 'none';
+        listbox14.style.display = 'block';
+        listbox15.style.display = 'none';
+        listbox16.style.display = 'none';
+        listbox17.style.display = 'none';
+        listbox18.style.display = 'none';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'none';
+    }
 }
 
 category5.onclick = ()=>{
@@ -820,6 +1024,22 @@ category5.onclick = ()=>{
     category8.classList.remove('active-category');
     category9.classList.remove('active-category');
     category10.classList.remove('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'none';
+        listbox12.style.display = 'none';
+        listbox13.style.display = 'none';
+        listbox14.style.display = 'none';
+        listbox15.style.display ='block';
+        listbox16.style.display = 'none';
+        listbox17.style.display = 'none';
+        listbox18.style.display = 'none';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'none';
+    }
 }
 
 category6.onclick = ()=>{
@@ -844,6 +1064,22 @@ category6.onclick = ()=>{
     category8.classList.remove('active-category');
     category9.classList.remove('active-category');
     category10.classList.remove('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'none';
+        listbox12.style.display = 'none';
+        listbox13.style.display = 'none';
+        listbox14.style.display = 'none';
+        listbox15.style.display ='none';
+        listbox16.style.display = 'block';
+        listbox17.style.display = 'none';
+        listbox18.style.display = 'none';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'none';
+    }
 }
 
 category7.onclick = ()=>{
@@ -868,6 +1104,22 @@ category7.onclick = ()=>{
     category8.classList.remove('active-category');
     category9.classList.remove('active-category');
     category10.classList.remove('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'none';
+        listbox12.style.display = 'none';
+        listbox13.style.display = 'none';
+        listbox14.style.display = 'none';
+        listbox15.style.display ='none';
+        listbox16.style.display = 'none';
+        listbox17.style.display = 'block';
+        listbox18.style.display = 'none';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'none';
+    }
 }
 
 category8.onclick = ()=>{
@@ -892,6 +1144,22 @@ category8.onclick = ()=>{
     category8.classList.add('active-category');
     category9.classList.remove('active-category');
     category10.classList.remove('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'none';
+        listbox12.style.display = 'none';
+        listbox13.style.display = 'none';
+        listbox14.style.display = 'none';
+        listbox15.style.display ='none';
+        listbox16.style.display = 'none';
+        listbox17.style.display = 'none';
+        listbox18.style.display = 'block';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'none';
+    }
 }
 
 category9.onclick = ()=>{
@@ -916,6 +1184,22 @@ category9.onclick = ()=>{
     category8.classList.remove('active-category');
     category9.classList.add('active-category');
     category10.classList.remove('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'none';
+        listbox12.style.display = 'none';
+        listbox13.style.display = 'none';
+        listbox14.style.display = 'none';
+        listbox15.style.display ='none';
+        listbox16.style.display = 'none';
+        listbox17.style.display = 'none';
+        listbox18.style.display = 'none';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'block';
+    }
 }
 
 category10.onclick = ()=>{
@@ -940,6 +1224,25 @@ category10.onclick = ()=>{
     category8.classList.remove('active-category');
     category9.classList.remove('active-category');
     category10.classList.add('active-category');
+
+    // balaca ekranda ayri modalin acilib baglanmasi
+        
+    if (window.innerWidth <= 768) { // 768 piksel'den küçük ekranlarda
+        categories.style.display = 'none';
+        categoryListResp.style.display = 'block';
+        listbox11.style.display = 'none';
+        listbox12.style.display = 'none';
+        listbox13.style.display = 'none';
+        listbox14.style.display = 'none';
+        listbox15.style.display ='none';
+        listbox16.style.display = 'none';
+        listbox17.style.display = 'none';
+        listbox18.style.display = 'none';
+        listbox19.style.display = 'none';
+        listbox20.style.display = 'block';
+    }
+
+      
 }
 
 
@@ -958,16 +1261,37 @@ categoryBtn.onclick = () => {
     if (categoriesModal.style.display === 'none') {
         categoriesModal.style.display = 'flex';
         categoryBtn.classList.add('active-category');
+        // balaca ekranda ayri modalin acilib baglanmasi
+        categoryListResp.style.display = 'none';
+        categories.style.display = 'block';
     }else{
         categoriesModal.style.display = 'none';
         categoryBtn.classList.remove('active-category');
     };
 
-
 };
+
+
+
+
 
 // ===========================================================================================================
 // Categories modal js kodlari END ===========================================================================
 // ===========================================================================================================
 
+
+// search inputa focus oldugunda search-modal acilmasi kodlari
+searchInput.addEventListener('focus', function () {
+    searchModal.style.display = 'block';
+});
+
+
+
+document.body.onclick = e =>{
+    if (e.target !== select && e.target !== select1  && e.target !== options && e.target !== options2 && e.target !== searchModal && e.target !== searchInput && !searchModal.contains(e.target)) {
+        options.style.display = 'none';
+        options2.style.display = 'none';
+        searchModal.style.display = 'none';
+    }
+}
 

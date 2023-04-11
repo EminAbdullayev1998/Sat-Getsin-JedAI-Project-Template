@@ -261,7 +261,7 @@ header .container .box2 button p span {
   padding-bottom: 20px;
   background-color: #ffffff;
   border-radius: 10px;
-  z-index: 98;
+  z-index: 99;
 }
 .One .container .nav .categories-modal .container {
   display: flex;
@@ -274,6 +274,7 @@ header .container .box2 button p span {
   width: 23%;
   height: 400px;
   border-right: 1px solid rgb(232, 232, 232);
+  z-index: 99;
 }
 .One .container .nav .categories-modal .container .categories .category1 {
   display: flex;
@@ -622,6 +623,7 @@ header .container .box2 button p span {
   display: flex;
   width: 47%;
   height: 400px;
+  z-index: 99;
 }
 .One .container .nav .categories-modal .container .category-list .listbox1 {
   display: none;
@@ -2009,6 +2011,7 @@ header .container .box2 button p span {
   justify-content: center;
   width: 30%;
   height: 400px;
+  z-index: 99;
 }
 .One .container .nav .categories-modal .container .popular-search .main-box {
   width: 70%;
@@ -2033,6 +2036,115 @@ header .container .box2 button p span {
   font-size: 14px;
   font-weight: 500;
   font-family: DM Sans;
+}
+.One .container .nav .search-modal {
+  position: absolute;
+  top: 100px;
+  left: 305px;
+  width: 33%;
+  height: auto;
+  border-radius: 0px 0px 5px 5px;
+  z-index: 98;
+  border: 1px solid #E8E8E8;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.One .container .nav .search-modal .location {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #F6F6F6;
+}
+.One .container .nav .search-modal .location .fa-location-dot {
+  color: rgb(208, 208, 210);
+  margin-left: 10px;
+}
+.One .container .nav .search-modal .location p {
+  color: rgb(151, 151, 152);
+  margin-left: 10px;
+}
+.One .container .nav .search-modal .last-search {
+  width: 100%;
+  height: auto;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #E8E8E8;
+}
+.One .container .nav .search-modal .last-search .title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+}
+.One .container .nav .search-modal .last-search .title p {
+  margin-left: 10px;
+  color: rgb(164, 164, 177);
+  font-weight: 500;
+  font-size: 12px;
+  font-family: DM Sans;
+}
+.One .container .nav .search-modal .last-search .results {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.One .container .nav .search-modal .last-search .results p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 28px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: DM Sans;
+  border-radius: 20px;
+  color: rgb(106, 91, 205);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: rgb(239, 239, 253);
+}
+.One .container .nav .search-modal .related-results {
+  width: 100%;
+  height: auto;
+}
+.One .container .nav .search-modal .related-results .title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  padding-top: 10px;
+}
+.One .container .nav .search-modal .related-results .title p {
+  margin-left: 10px;
+  color: rgb(164, 164, 177);
+  font-weight: 500;
+  font-size: 12px;
+  font-family: DM Sans;
+}
+.One .container .nav .search-modal .related-results .box {
+  width: 100%;
+  height: auto;
+}
+.One .container .nav .search-modal .related-results .box .list {
+  width: 50%;
+  height: auto;
+  margin-left: 10px;
+}
+.One .container .nav .search-modal .related-results .box .list li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: DM Sans;
+  padding-top: 5px;
+  border-bottom: 1px solid #E8E8E8;
+  color: rgb(72, 75, 94);
 }
 
 .Two {
@@ -3609,7 +3721,6 @@ header .container .box2 button p span {
 }
 .Two .container .new-user-modal {
   position: fixed;
-  display: flex;
   align-items: center;
   justify-content: center;
   top: 50%;
@@ -4004,6 +4115,148 @@ header .container .box2 button p span {
   border-radius: 5px;
   background-color: transparent;
   border: 1px solid rgb(233, 232, 238);
+}
+.Two .container .check-register {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  z-index: 99;
+}
+.Two .container .check-register .main-box {
+  width: 90%;
+  height: 500px;
+}
+.Two .container .check-register .main-box .check-register-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .check-register .main-box .check-register-title h1 {
+  color: rgb(72, 75, 94);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Two .container .check-register .main-box .check-register-title .fa-x {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(182, 181, 191);
+}
+.Two .container .check-register .main-box .check-register-title .fa-x:hover {
+  color: rgb(156, 155, 165);
+}
+.Two .container .check-register .main-box .info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .check-register .main-box .info p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: DM Sans;
+  color: rgb(171, 172, 180);
+}
+.Two .container .check-register .main-box .number-boxes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding-bottom: 10px;
+}
+.Two .container .check-register .main-box .number-boxes p {
+  position: absolute;
+  right: 110px;
+  bottom: 0px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(171, 169, 183);
+}
+.Two .container .check-register .main-box .number-boxes input {
+  width: 10%;
+  height: 50px;
+  border: none;
+  margin-right: 10px;
+  font-size: 25px;
+  text-align: center;
+  background-color: transparent;
+  border-bottom: 4px solid rgb(188, 187, 194);
+}
+.Two .container .check-register .main-box .number-boxes input:focus {
+  outline: none;
+}
+.Two .container .check-register .main-box .number-boxes input::-webkit-outer-spin-button,
+.Two .container .check-register .main-box .number-boxes input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Two .container .check-register .main-box .button {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 100px;
+}
+.Two .container .check-register .main-box .button button {
+  width: 80%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: DM Sans;
+  color: rgb(255, 255, 255);
+  background-color: rgb(106, 91, 205);
+}
+.Two .container .check-register .main-box .text {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 40px;
+}
+.Two .container .check-register .main-box .text p {
+  cursor: pointer;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+}
+.Two .container .check-register .main-box .text p:nth-child(1) {
+  text-decoration: underline;
+}
+.Two .container .check-register .main-box .text p:nth-child(2) {
+  margin-left: 90px;
+  color: rgb(106, 91, 205);
+}
+.Two .container .check-register .main-box .button1 {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 80px;
+}
+.Two .container .check-register .main-box .button1 button {
+  width: 80%;
+  height: 50px;
+  border: 1px solid rgb(98, 85, 189);
+  color: rgb(98, 85, 189);
+  background-color: transparent;
+  cursor: pointer;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 19px;
 }
 
 .Three {
@@ -4990,6 +5243,3645 @@ footer .container .footer-alt .p2 {
   font-family: DM Sans;
 }
 
+@media only screen and (max-width: 480px) {
+  header {
+    height: 150px;
+  }
+  header .container {
+    flex-direction: column;
+  }
+  header .container .box1 {
+    width: 100%;
+  }
+  header .container .box1 .socialApps {
+    width: 20%;
+  }
+  header .container .box1 .phone {
+    width: 50%;
+  }
+  header .container .box1 .support {
+    width: 30%;
+    text-align: center;
+  }
+  header .container .box2 {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+  }
+  .One .container .nav {
+    flex-direction: column;
+    height: auto !important;
+  }
+  .One .container .nav .logo {
+    width: 100%;
+    height: 50px;
+  }
+  .One .container .nav .input-box {
+    width: 100%;
+  }
+  .One .container .nav .input-box .main-box {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .One .container .nav .input-box .main-box .category {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-right: 0px;
+  }
+  .One .container .nav .input-box .main-box input {
+    width: 100%;
+    height: 60px;
+  }
+  .One .container .nav .input-box .main-box .icon {
+    display: none;
+  }
+  .One .container .nav .wishlist {
+    width: 100%;
+    height: 50px;
+  }
+  .One .container .nav .create-button {
+    width: 100%;
+    height: 60px;
+  }
+  .One .container .nav .categories-modal .container .categories {
+    width: 100%;
+  }
+  .One .container .nav .categories-modal .container .category-list {
+    display: none;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp {
+    display: none;
+    width: 100%;
+    height: auto;
+    z-index: 90;
+    background-color: aquamarine;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list1:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list1 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list1 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list2:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list2 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list2 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list3:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list3 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list3 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list4:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list4 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list4 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list5:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list5 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list5 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list6:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list6 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list6 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list7:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list7 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list7 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list8:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list8 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list8 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list9:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list9 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list9 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list10 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list10:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list10 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list10 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list11:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list11 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list11 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list12 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list12:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list12 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list12 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list13 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list13:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list13 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list13 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list14 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list14:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list14 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list14 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list15 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list15:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list15 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list15 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list16 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list16:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list16 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list16 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list17 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list17:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list17 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list17 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list18 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list18:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list18 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list18 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list19 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list19:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list19 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list19 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list20 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list20:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list20 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list20 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list21 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list21:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list21 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list21 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list22 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list22:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list22 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list22 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list23 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list23:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list23 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list23 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list24 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list24:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list24 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list24 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list25 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list25:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list25 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list25 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list26 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list26:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list26 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list26 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list27 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list27:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list27 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list27 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list28 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list28:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list28 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list28 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list29 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list29:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list29 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list29 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list30 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list30:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list30 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list30 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list31 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list31:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list31 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list31 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list32 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list32:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list32 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list32 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list33 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list33:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list33 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list33 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list34 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list34:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list34 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list34 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list35 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list35:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list35 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list35 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list36 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list36:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list36 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list36 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list37 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list37:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list37 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list37 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list38 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list38:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list38 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list38 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list39 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list39:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list39 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list39 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list40 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list40:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list40 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list40 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list41 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list41:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list41 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list41 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list42 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list42:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list42 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list42 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list43 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list43:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list43 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list43 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list44 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list44:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list44 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list44 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list45 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list45:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list45 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list45 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list46 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list46:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list46 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list46 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list47 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list47:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list47 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list47 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list48 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list48:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list48 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list48 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list49 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list49:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list49 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list49 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list50 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list50:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list50 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list50 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list51 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list51:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list51 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list51 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list52 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list52:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list52 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list52 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list53 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list53:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list53 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list53 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list54 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list54:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list54 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list54 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list55 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list55:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list55 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list55 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list56 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list56:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list56 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list56 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list57 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list57:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list57 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list57 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list58 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list58:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list58 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list58 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list59 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list59:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list59 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list59 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list60 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list60:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list60 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list60 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .popular-search {
+    display: none;
+  }
+  .One .container .nav .search-modal {
+    top: 180px;
+    left: 2%;
+    width: 95%;
+  }
+  .Two .container .title {
+    justify-content: center;
+    height: 100px;
+  }
+  .Two .container .category-box1 {
+    justify-content: space-evenly;
+  }
+  .Two .container .category-box1 .card-category1 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category1 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category2 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category2 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category3 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category3 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category4 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category4 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category5 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category5 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category6 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category6 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 {
+    justify-content: space-evenly;
+  }
+  .Two .container .category-box2 .card-category7 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box2 .card-category7 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 .card-category8 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box2 .card-category8 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 .card-category9 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box2 .card-category9 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 .card-category10 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box2 .card-category10 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 .card-category11 {
+    width: 40%;
+  }
+  .Two .container .category-box2 .card-category11 .name p {
+    font-size: 15px;
+  }
+  .Two .container .register-box {
+    width: 100%;
+    height: 750px;
+    top: 0px;
+    left: 0px;
+    transform: none;
+  }
+  .Two .container .register-box .main-box {
+    width: 90%;
+    height: 550px;
+  }
+  .Two .container .register-box .main-box .form-box .form-options .tel-box {
+    width: 35%;
+  }
+  .Two .container .register-box .main-box .form-box .email-input .box .email {
+    padding: 5px;
+  }
+  .Two .container .register-box .main-box .form-box .daxilol {
+    padding-top: 10px;
+  }
+  .Two .container .forgot-password {
+    width: 100%;
+    height: 650px;
+    top: 0px;
+    left: 0px;
+    transform: none;
+  }
+  .Two .container .forgot-password .main-box {
+    width: 90%;
+    height: 550px;
+  }
+  .Two .container .forgot-password .main-box .main-box .options-box .option-phone {
+    width: 30%;
+  }
+  .Two .container .check-email-modal {
+    width: 100%;
+    height: 750px;
+    top: 0px;
+    left: 0px;
+    transform: none;
+  }
+  .Two .container .check-email-modal .main-box {
+    width: 90%;
+    height: 550px;
+  }
+  .Two .container .check-email-modal .main-box .main-box .code-box {
+    width: 90%;
+  }
+  .Two .container .check-email-modal .main-box .main-box .code-box .boxes p {
+    right: 25%;
+  }
+  .Two .container .check-phone-modal {
+    width: 100%;
+    height: 650px;
+    top: 0px;
+    left: 0px;
+    transform: none;
+  }
+  .Two .container .check-phone-modal .main-box {
+    width: 90%;
+    height: 550px;
+  }
+  .Two .container .check-phone-modal .main-box .main-box .code-box {
+    width: 90%;
+  }
+  .Two .container .check-phone-modal .main-box .main-box .code-box .boxes p {
+    right: 25%;
+  }
+  .Two .container .reset-password {
+    width: 100%;
+    height: 750px;
+    top: 0px;
+    left: 0px;
+    transform: none;
+  }
+  .Two .container .reset-password .main-box {
+    width: 90%;
+    height: 550px;
+  }
+  .Two .container .reset-password .main-box .check-box .container {
+    width: 30% !important;
+  }
+  .Two .container .new-user-modal {
+    align-items: initial;
+    width: 100%;
+    height: 750px;
+    top: 0px;
+    left: 0px;
+    transform: none;
+  }
+  .Two .container .new-user-modal .main-box .modal-title .fa-x {
+    top: 0px;
+    right: 20px;
+  }
+  .Two .container .new-user-modal .main-box .form-box .inputbox1 .box-input1 .input {
+    width: 90%;
+  }
+  .Two .container .new-user-modal .main-box .form-box .inputbox2 .box-input1 .input {
+    width: 90%;
+  }
+  .Two .container .new-user-modal .main-box .form-box .inputbox3 .box-input1 .input {
+    width: 90%;
+  }
+  .Two .container .new-user-modal .main-box .form-box .inputbox3 .box-input1 .input input {
+    width: 60%;
+  }
+  .Two .container .new-user-modal .main-box .form-box .inputbox4 .box-input1 .input {
+    width: 90%;
+  }
+  .Two .container .new-user-modal .main-box .form-box .inputbox5 .input {
+    width: 60%;
+  }
+  .Two .container .new-user-modal .main-box .form-box .inputbox5 .photo-code {
+    width: 20%;
+  }
+  .Two .container .new-user-modal .main-box .form-box .check-box .container {
+    width: 60%;
+  }
+  .Two .container .new-user-modal .main-box .form-box .button-1 button {
+    width: 90%;
+  }
+  .Two .container .new-user-modal .main-box .form-box .button-2 button {
+    width: 90%;
+  }
+  .Two .container .check-register {
+    width: 100%;
+    height: 750px;
+    top: 0px;
+    left: 0px;
+    transform: none;
+  }
+  .Two .container .check-register .main-box .number-boxes p {
+    right: 20%;
+  }
+  .Three .container .card-boxes {
+    justify-content: center;
+  }
+  .Three .container .card-boxes .premium-card {
+    width: 250px;
+  }
+  .Three .container .card-boxes .elan-card {
+    width: 250px;
+  }
+  .Three .container .load-more button {
+    width: 300px;
+  }
+  .Four .container .card-boxes {
+    justify-content: center;
+  }
+  .Four .container .card-boxes .elan-card {
+    width: 250px;
+  }
+  .Four .container .load-more button {
+    width: 300px;
+  }
+  .Five .container .title h1 {
+    font-size: 20px;
+  }
+  .Five .container .title .nice-select {
+    transform: translateX(-5px);
+  }
+  .Five .container .title .nice-select .list {
+    transform: translateX(-50px);
+  }
+  .Five .container .card-boxes {
+    justify-content: center;
+  }
+  .Five .container .card-boxes .vip-card {
+    width: 250px;
+  }
+  .Five .container .card-boxes .elan-card {
+    width: 250px;
+  }
+  .Five .container .load-more button {
+    width: 300px;
+  }
+  .Six .container .famous-requests .title {
+    justify-content: center;
+  }
+  .Six .container .famous-requests .request-boxes a {
+    width: 45%;
+  }
+  footer .container {
+    flex-wrap: wrap;
+  }
+  footer .container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  footer .container .logo a {
+    display: none;
+  }
+  footer .container .logo .button {
+    margin-left: 50px;
+  }
+  footer .container .nav-box {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  footer .container .nav-box .contact {
+    width: 100%;
+    height: 200px;
+  }
+  footer .container .nav-box .contact .mail-tel {
+    text-align: center;
+  }
+  footer .container .nav-box .contact .mail-tel ::after {
+    width: 100%;
+  }
+  footer .container .nav-box .contact .apps {
+    justify-content: center;
+  }
+  footer .container .nav-box .categories {
+    width: 100%;
+    height: 300px;
+  }
+  footer .container .nav-box .options {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+  }
+  footer .container .nav-box .help {
+    width: 100%;
+    height: 200px;
+  }
+  footer .container .footer-alt {
+    flex-wrap: wrap;
+  }
+  footer .container .footer-alt .p1 {
+    text-align: center;
+    width: 100%;
+  }
+  footer .container .footer-alt .p2 {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  header {
+    height: 100px;
+  }
+  header .container .box1 {
+    width: 70%;
+  }
+  header .container .box1 .socialApps {
+    width: 20%;
+  }
+  header .container .box1 .phone {
+    width: 50%;
+  }
+  header .container .box1 .support {
+    width: 30%;
+    text-align: center;
+  }
+  header .container .box2 {
+    width: 30%;
+    height: 100px;
+    justify-content: center;
+  }
+  header .container .box2 button {
+    margin-left: 30px;
+  }
+  header .container .box2 button p span {
+    display: none;
+  }
+  .One .container .nav {
+    flex-direction: column;
+    height: auto !important;
+  }
+  .One .container .nav .logo {
+    width: 100%;
+    height: 50px;
+  }
+  .One .container .nav .input-box {
+    width: 100%;
+  }
+  .One .container .nav .input-box .main-box {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .One .container .nav .input-box .main-box .category {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-right: 0px;
+  }
+  .One .container .nav .input-box .main-box input {
+    width: 100%;
+    height: 60px;
+  }
+  .One .container .nav .input-box .main-box .icon {
+    display: none;
+  }
+  .One .container .nav .wishlist {
+    width: 100%;
+    height: 50px;
+  }
+  .One .container .nav .create-button {
+    width: 100%;
+    height: 60px;
+  }
+  .One .container .nav .categories-modal .container .categories {
+    width: 100%;
+  }
+  .One .container .nav .categories-modal .container .category-list {
+    display: none;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp {
+    display: none;
+    width: 100%;
+    height: auto;
+    z-index: 90;
+    background-color: aquamarine;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list1:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list1 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list1 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list2:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list2 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list2 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list3:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list3 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list3 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list4:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list4 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list4 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list5:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list5 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list5 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list6:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list6 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox1 .list6 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list7:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list7 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list7 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list8:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list8 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list8 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list9:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list9 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list9 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list10 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list10:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list10 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list10 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list11:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list11 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list11 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list12 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list12:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list12 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox2 .list12 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list13 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list13:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list13 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list13 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list14 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list14:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list14 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list14 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list15 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list15:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list15 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list15 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list16 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list16:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list16 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list16 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list17 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list17:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list17 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list17 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list18 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list18:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list18 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox3 .list18 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list19 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list19:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list19 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list19 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list20 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list20:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list20 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list20 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list21 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list21:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list21 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list21 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list22 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list22:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list22 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list22 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list23 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list23:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list23 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list23 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list24 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list24:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list24 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox4 .list24 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list25 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list25:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list25 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list25 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list26 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list26:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list26 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list26 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list27 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list27:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list27 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list27 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list28 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list28:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list28 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list28 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list29 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list29:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list29 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list29 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list30 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list30:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list30 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox5 .list30 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list31 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list31:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list31 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list31 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list32 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list32:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list32 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list32 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list33 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list33:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list33 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list33 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list34 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list34:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list34 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list34 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list35 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list35:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list35 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list35 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list36 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list36:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list36 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox6 .list36 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list37 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list37:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list37 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list37 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list38 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list38:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list38 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list38 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list39 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list39:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list39 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list39 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list40 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list40:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list40 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list40 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list41 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list41:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list41 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list41 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list42 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list42:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list42 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox7 .list42 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list43 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list43:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list43 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list43 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list44 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list44:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list44 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list44 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list45 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list45:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list45 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list45 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list46 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list46:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list46 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list46 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list47 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list47:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list47 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list47 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list48 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list48:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list48 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox8 .list48 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list49 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list49:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list49 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list49 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list50 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list50:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list50 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list50 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list51 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list51:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list51 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list51 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list52 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list52:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list52 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list52 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list53 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list53:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list53 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list53 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list54 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list54:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list54 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox9 .list54 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 {
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list55 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list55:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list55 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list55 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list56 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list56:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list56 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list56 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list57 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list57:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list57 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list57 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list58 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list58:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list58 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list58 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list59 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list59:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list59 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list59 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list60 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list60:hover {
+    background-color: rgb(247, 247, 252);
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list60 p {
+    color: rgb(125, 128, 146);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding-left: 20px;
+  }
+  .One .container .nav .categories-modal .container .category-list-resp .listbox10 .list60 .fa-chevron-right {
+    color: rgb(125, 128, 146);
+    padding-right: 20px;
+  }
+  .One .container .nav .categories-modal .container .popular-search {
+    display: none;
+  }
+  .One .container .nav .search-modal {
+    top: 180px;
+    left: 3%;
+    width: 94%;
+  }
+  .Two .container .title {
+    justify-content: center;
+    height: 100px;
+  }
+  .Two .container .category-box1 {
+    justify-content: space-evenly;
+  }
+  .Two .container .category-box1 .card-category1 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category1 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category2 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category2 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category3 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category3 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category4 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category4 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category5 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category5 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box1 .card-category6 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box1 .card-category6 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 {
+    justify-content: space-evenly;
+  }
+  .Two .container .category-box2 .card-category7 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box2 .card-category7 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 .card-category8 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box2 .card-category8 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 .card-category9 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box2 .card-category9 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 .card-category10 {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Two .container .category-box2 .card-category10 .name p {
+    font-size: 15px;
+  }
+  .Two .container .category-box2 .card-category11 {
+    width: 200px;
+  }
+  .Two .container .category-box2 .card-category11 .name p {
+    font-size: 15px;
+  }
+  .Three .container .card-boxes {
+    justify-content: space-evenly;
+  }
+  .Three .container .card-boxes .premium-card {
+    width: 250px;
+  }
+  .Three .container .card-boxes .elan-card {
+    width: 250px;
+  }
+  .Three .container .load-more button {
+    width: 60%;
+  }
+  .Four .container .card-boxes {
+    justify-content: space-evenly;
+  }
+  .Four .container .card-boxes .elan-card {
+    width: 250px;
+  }
+  .Four .container .load-more button {
+    width: 60%;
+  }
+  .Five .container .title h1 {
+    font-size: 20px;
+  }
+  .Five .container .title .nice-select {
+    transform: translateX(-5px);
+  }
+  .Five .container .title .nice-select .list {
+    transform: translateX(-50px);
+  }
+  .Five .container .card-boxes {
+    justify-content: space-evenly;
+  }
+  .Five .container .card-boxes .vip-card {
+    width: 250px;
+  }
+  .Five .container .card-boxes .elan-card {
+    width: 250px;
+  }
+  .Five .container .load-more button {
+    width: 60%;
+  }
+  .Six .container .famous-requests .title {
+    justify-content: center;
+  }
+  .Six .container .famous-requests .request-boxes a {
+    width: 30%;
+  }
+  footer .container {
+    flex-wrap: wrap;
+  }
+  footer .container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+  }
+  footer .container .logo a {
+    display: block;
+  }
+  footer .container .logo .button {
+    margin-left: 50px;
+  }
+  footer .container .nav-box {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  footer .container .nav-box .contact {
+    width: 100%;
+    height: 200px;
+  }
+  footer .container .nav-box .contact .mail-tel {
+    text-align: center;
+  }
+  footer .container .nav-box .contact .mail-tel ::after {
+    width: 100%;
+  }
+  footer .container .nav-box .contact .apps {
+    justify-content: center;
+  }
+  footer .container .nav-box .categories {
+    width: 100%;
+    height: 300px;
+  }
+  footer .container .nav-box .options {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+  }
+  footer .container .nav-box .help {
+    width: 100%;
+    height: 200px;
+  }
+  footer .container .footer-alt {
+    flex-wrap: wrap;
+  }
+  footer .container .footer-alt .p1 {
+    text-align: center;
+    width: 100%;
+  }
+  footer .container .footer-alt .p2 {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .One .container .nav .categories-modal .container .categories {
+    width: 30%;
+  }
+  .One .container .nav .categories-modal .container .categories .category1 .fa-chevron-right {
+    margin-left: 60px;
+  }
+  .One .container .nav .categories-modal .container .categories .category2 .fa-chevron-right {
+    margin-right: 20px !important;
+  }
+  .One .container .nav .categories-modal .container .categories .category3 .fa-chevron-right {
+    margin-right: 20px !important;
+  }
+  .One .container .nav .categories-modal .container .categories .category4 .fa-chevron-right {
+    margin-left: 63px !important;
+  }
+  .One .container .nav .categories-modal .container .categories .category5 .fa-chevron-right {
+    margin-left: 42px !important;
+  }
+  .One .container .nav .categories-modal .container .categories .category6 .fa-chevron-right {
+    margin-left: 42px !important;
+  }
+  .One .container .nav .categories-modal .container .categories .category7 .fa-chevron-right {
+    margin-left: 52px !important;
+  }
+  .One .container .nav .categories-modal .container .categories .category8 .fa-chevron-right {
+    margin-left: 75px !important;
+  }
+  .One .container .nav .categories-modal .container .categories .category9 .fa-chevron-right {
+    margin-left: 42px !important;
+  }
+  .One .container .nav .categories-modal .container .categories .category10 .fa-chevron-right {
+    margin-left: 25px !important;
+  }
+  .One .container .nav .category-list {
+    width: 40%;
+  }
+  .One .container .nav .category-list .listbox1 {
+    width: 50% !important;
+  }
+  .One .container .nav .category-list .listbox2 {
+    width: 50% !important;
+  }
+  .One .container .nav .category-list .listbox3 {
+    width: 50% !important;
+  }
+  .One .container .nav .category-list .listbox4 {
+    width: 50% !important;
+  }
+  .One .container .nav .category-list .listbox5 {
+    width: 50% !important;
+  }
+  .One .container .nav .category-list .listbox6 {
+    width: 50% !important;
+  }
+  .One .container .nav .category-list .listbox7 {
+    width: 50% !important;
+  }
+  .One .container .nav .category-list .listbox8 {
+    width: 50% !important;
+  }
+  .One .container .nav .category-list .listbox9 {
+    width: 50% !important;
+  }
+  .One .container .nav .category-list .listbox10 {
+    width: 50% !important;
+  }
+  .One .container .nav .popular-search .main-box {
+    width: 100%;
+  }
+  .One .container .nav .search-modal {
+    left: 25%;
+  }
+  .Two .container .category-box1 .card-category1 {
+    width: 18%;
+  }
+  .Two .container .category-box1 .card-category2 {
+    width: 18%;
+  }
+  .Two .container .category-box1 .card-category3 {
+    width: 18%;
+  }
+  .Two .container .category-box1 .card-category4 {
+    width: 18%;
+  }
+  .Two .container .category-box1 .card-category5 {
+    width: 18%;
+  }
+  .Two .container .category-box1 .card-category6 {
+    width: 18%;
+  }
+  .Two .container .category-box2 .card-category7 {
+    width: 17%;
+  }
+  .Two .container .category-box2 .card-category8 {
+    width: 17%;
+  }
+  .Two .container .category-box2 .card-category9 {
+    width: 17%;
+  }
+  .Two .container .category-box2 .card-category10 {
+    width: 17%;
+  }
+  .Two .container .category-box2 .card-category11 {
+    width: 17%;
+  }
+  .Three .container .card-boxes .premium-card {
+    width: 30%;
+  }
+  .Three .container .card-boxes .elan-card {
+    width: 30%;
+  }
+  .Four .container .card-boxes .elan-card {
+    width: 30%;
+  }
+  .Five .container .title h1 {
+    font-size: 20px;
+  }
+  .Five .container .title .nice-select {
+    transform: translateX(-5px);
+  }
+  .Five .container .title .nice-select .list {
+    transform: translateX(-50px);
+  }
+  .Five .container .card-boxes .vip-card {
+    width: 30%;
+  }
+  .Five .container .card-boxes .elan-card {
+    width: 30%;
+  }
+  .Six .famous-requests .request-boxes a {
+    width: 18% !important;
+  }
+  footer .container .logo {
+    justify-content: space-around;
+  }
+  footer .container .nav-box .contact .mail-tel p {
+    margin-left: 10px;
+  }
+  footer .container .nav-box .contact .apps a {
+    margin-left: 20px;
+  }
+  footer .container .footer-alt {
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .One .container .nav .categories-modal .container .categories {
+    width: 26%;
+  }
+  .One .container .nav .search-modal {
+    left: 25.4%;
+  }
+  .Three .container .card-boxes .premium-card {
+    width: 23%;
+  }
+  .Three .container .card-boxes .elan-card {
+    width: 23%;
+  }
+  .Four .container .card-boxes .elan-card {
+    width: 23%;
+  }
+  .Five .container .title h1 {
+    font-size: 20px;
+  }
+  .Five .container .title .nice-select {
+    transform: translateX(-5px);
+  }
+  .Five .container .title .nice-select .list {
+    transform: translateX(-50px);
+  }
+  .Five .container .card-boxes .vip-card {
+    width: 23%;
+  }
+  .Five .container .card-boxes .elan-card {
+    width: 23%;
+  }
+  .Six .famous-requests .request-boxes a {
+    width: 15% !important;
+  }
+  footer .container .logo {
+    justify-content: space-between;
+  }
+  footer .container .logo a {
+    margin-left: 10px;
+  }
+  footer .container .nav-box .contact .mail-tel p {
+    margin-left: 10px;
+  }
+  footer .container .nav-box .contact .apps a {
+    margin-left: 20px;
+  }
+  footer .container .footer-alt {
+    justify-content: space-between;
+  }
+}
 @font-face {
   font-family: DM Sans;
   src: url("/fonts/DMSans-Regular.ttf");

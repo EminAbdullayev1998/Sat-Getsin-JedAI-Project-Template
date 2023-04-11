@@ -1794,7 +1794,6 @@
 
         .new-user-modal{
             position: fixed;
-            display: flex;
             align-items: center;
             justify-content: center;
             top: 50%;
@@ -2239,6 +2238,167 @@
                             background-color: transparent;
                             border: 1px solid rgba(233, 232, 238, 1);
                         }
+                    }
+                }
+            }
+        }
+
+        .check-register{
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 500px;
+            height: 600px;
+            background-color: rgba(255, 255, 255, 1);
+            z-index: 99;
+
+            .main-box{
+                width: 90%;
+                height: 500px;
+
+                .check-register-title{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+
+                    h1{
+                        color: rgba(72, 75, 94, 1);
+                        font-family: DM Sans;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+
+                    .fa-x{
+                        position: absolute;
+                        top: -10px;
+                        right: 10px;
+                        font-size: 25px;
+                        cursor: pointer;
+                        color: rgba(182, 181, 191, 1);
+                        &:hover{
+                            color: rgb(156, 155, 165);
+                        }
+                    }
+                }
+
+                .info{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-family: DM Sans;
+                        color: rgba(171, 172, 180, 1);
+                    }
+                }
+
+                .number-boxes{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 100px;
+                    padding-bottom: 10px;
+
+                    p{
+                        position: absolute;
+                        right: 110px;
+                        bottom: 0px;
+                        font-family: DM Sans;
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: rgba(171, 169, 183, 1);
+                    }
+
+                    input{
+                        width: 10%;
+                        height: 50px;
+                        border: none;
+                        margin-right: 10px;
+                        font-size: 25px;
+                        text-align: center;
+                        background-color: transparent;
+                        border-bottom: 4px solid rgb(188, 187, 194);
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+
+                    input::-webkit-outer-spin-button,
+                    input::-webkit-inner-spin-button {
+                      -webkit-appearance: none;
+                      margin: 0;
+                    }
+                }
+
+                .button{
+                    display: flex;
+                    align-items: end;
+                    width: 100%;
+                    height: 100px;
+
+                    button{
+                        width: 80%;
+                        height: 50px;
+                        border: none;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        font-weight: 700;
+                        font-size: 19px;
+                        font-family: DM Sans;
+                        color: rgba(255, 255, 255, 1);
+                        background-color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .text{
+                    display: flex;
+                    align-items: end;
+                    width: 100%;
+                    height: 40px;
+
+                    p{
+                        cursor: pointer;
+                        font-family: DM Sans;
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+
+                    p:nth-child(1){
+                        text-decoration: underline;
+                    }
+
+                    p:nth-child(2){
+                        margin-left: 90px;
+                        color: rgba(106, 91, 205, 1);
+                    }
+                }
+
+                .button1{
+                    display: flex;
+                    align-items: end;
+                    width: 100%;
+                    height: 80px;
+
+                    button{
+                        width: 80%;
+                        height: 50px;
+                        border: 1px solid rgb(98, 85, 189);
+                        color: rgb(98, 85, 189);
+                        background-color: transparent;
+                        cursor: pointer;
+                        font-family: DM Sans;
+                        font-weight: 700;
+                        font-size: 19px;
                     }
                 }
             }

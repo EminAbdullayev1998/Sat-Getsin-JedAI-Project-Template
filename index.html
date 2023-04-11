@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="jquery-nice-select-1.1.0/css/nice-select.css">
     <link rel="stylesheet" href="sass/style.css">
     <title>Elan sayti</title>
+    
 </head>
 <body>
 
@@ -65,7 +66,7 @@
                            <!-- <img src="img/x-categories.png" alt="error"> -->
                            <p>Kategoriya seçin</p>
                        </button>
-                       <input type="text" placeholder="Axtaracağınız məhsul,elan,kateqoriyanı yazın">
+                       <input id="searchInput" type="text" placeholder="Axtaracağınız məhsul,elan,kateqoriyanı yazın">
                        <div class="icon">
                            <img src="img/telescope.png" alt="error">
                        </div>
@@ -84,7 +85,7 @@
 
                 <div class="categories-modal" id="categoriesModal" style="display: none;">
                     <div class="container">
-                        <div class="categories">
+                        <div class="categories" id="categories">
                             <div class="category1" id="category1">
                                 <div class="circle"><i class="fa-solid fa-house"></i></div>
                                 <p>Ev və bağ</p>
@@ -338,6 +339,208 @@
                                 </div>
                             </div>
                         </diV>
+                        <diV class="category-list-resp" id="categoryListResp">
+                            <div class="listbox1" id="listbox11">
+                                <div class="list1">
+                                    <p>Ev</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list2">
+                                    <p>Bağ</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list3">
+                                    <p>Ev</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list4">
+                                    <p>Bağ</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list5">
+                                    <p>Ev</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list6">
+                                    <p>Bağ</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox2" id="listbox12">
+                                <div class="list7">
+                                    <p>Elektronika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list8">
+                                    <p>Texnika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list9">
+                                    <p>Elektronika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list10">
+                                    <p>Texnika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list11">
+                                    <p>Elektronika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list12">
+                                    <p>Texnika</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox3" id="listbox13">
+                                <div class="list13">
+                                    <p>Mənzillər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list14">
+                                    <p>Villalar</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list15">
+                                    <p>Qarajlar</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list16">
+                                    <p>Bağ evləri</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list17">
+                                    <p>Obyekt və ofislər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list18">
+                                    <p>Torpaq sahələri</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox4" id="listbox14">
+                                <div class="list19">
+                                    <p>BMW</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list20">
+                                    <p>PORSCHE</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list21">
+                                    <p>LAMBORGHINI</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list22">
+                                    <p>CADILLAC</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list23">
+                                    <p>BENTLEY</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list24">
+                                    <p>RANGE ROVER</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox5" id="listbox15">
+                                <div class="list25">
+                                    <p>Daraq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list26">
+                                    <p>Güzgü</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list27">
+                                    <p>Daraq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list28">
+                                    <p>Güzgü</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list29">
+                                    <p>Daraq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list30">
+                                    <p>Güzgü</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox6" id="listbox16">
+                                <div class="list31">
+                                    <p>Hobbi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list32">
+                                    <p>Asude</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list33">
+                                    <p>Hobbi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list34">
+                                    <p>Asude</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list35">
+                                    <p>Hobbi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list36">
+                                    <p>Asude</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox7" id="listbox17">
+                                <div class="list37">
+                                    <p>Uşaq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list38">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list39">
+                                    <p>Uşaq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list40">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list41">
+                                    <p>Uşaq</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list42">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox8" id="listbox18">
+                                <div class="list43">
+                                    <p>Heyvan</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list44">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list45">
+                                    <p>Ləvazimatlar</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list46">
+                                    <p>Heyvan</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list47">
+                                    <p>Aləmi</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list48">
+                                    <p>Ləvazimatlar</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox9" id="listbox19">
+                                <div class="list49">
+                                    <p>Frontend</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list50">
+                                    <p>Backend</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list51">
+                                    <p>Data analitik</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list52">
+                                    <p>Full-stack</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list53">
+                                    <p>Mobil App</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list54">
+                                    <p>Təmir</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="listbox10" id="listbox20">
+                                <div class="list55">
+                                    <p>Digər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list56">
+                                    <p>Xidmətlər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list57">
+                                    <p>Digər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list58">
+                                    <p>Xidmətlər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list59">
+                                    <p>Digər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="list60">
+                                    <p>Xidmətlər</p> <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </diV>
                         <div class="popular-search">
                             <div class="main-box">
                                 <ul>
@@ -350,6 +553,35 @@
                                     <li class="word">Mətbəx mebelləri</li>
                                     <li class="word">Nar nömrələri</li>
                                     <li class="word">Azercell nömrələri</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-modal" id="searchModal" style="display: none;">
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i> <p>Bakı</p>
+                    </div>
+                    <div class="last-search">
+                        <div class="title">
+                            <p>Ən son axtarılanlar</p>
+                        </div>
+                        <div class="results">
+                            <p>iphone12</p>
+                            <p>Ofis</p>
+                            <p>Dibçək</p>
+                        </div>
+                    </div>
+                    <div class="related-results">
+                        <div class="title">
+                            <p>Əlaqəli nəticələr</p>
+                        </div>
+                        <div class="box">
+                            <div class="list">
+                                <ul>
+                                    <li>Dibçək</li>
+                                    <li>Dibçək altlığı</li>
                                 </ul>
                             </div>
                         </div>
@@ -766,7 +998,7 @@
                             </label>
                         </div>
                         <div class="button-1">
-                            <button>Davam edin</button>
+                            <button id="continueNewUser">Davam edin</button>
                         </div>
                         <div class="text">
                             <p>Hesabınız var? o zaman</p>
@@ -774,6 +1006,38 @@
                         <div class="button-2">
                             <button id="daxilOlNewUser">Daxil olun</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="check-register" id="checkRegisterModal" style="display: none;">
+                <div class="main-box">
+                    <div class="check-register-title">
+                        <h1>Qeydiyyat</h1>
+                        <i class="fa-solid fa-x" id="xCheckRegister"></i>
+                    </div>
+                    <div class="info">
+                        <p>Telefonunuza göndərilən 6 xanalı kodu girin</p>
+                    </div>
+                    <div class="number-boxes">
+                        <input type="number" class="number-input2">
+                        <input type="number" class="number-input2">
+                        <input type="number" class="number-input2">
+                        <input type="number" class="number-input2">
+                        <input type="number" class="number-input2">
+                        <input type="number" class="number-input2">
+                        <p id="timerCheckRegister"></p>
+                    </div>
+                    <div class="button">
+                        <button id="confirmBtn">Təsdiq edin</button>
+                    </div>
+                    <div class="text" id="textCheckRegister" style="display: flex;">
+                        <p>Nömrəni yenilə</p>
+                        <p>Kodu yenidən göndər</p>
+                    </div>
+                    <div class="button1">
+                        <button id="daxilOlCheckRegister" style="display: none;">Daxil olun</button>
                     </div>
                 </div>
             </div>
@@ -1369,7 +1633,7 @@
 
     <!-- Section 5 START ============================================================================ -->
 
-    <section class="Five">
+    <section class="Five" style="display: flex;">
 
         <div class="container">
 

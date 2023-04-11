@@ -1,0 +1,4453 @@
+@media only screen and (max-width: 480px){
+    header{
+        height: 150px;
+
+        .container{
+            flex-direction: column;
+
+            .box1{
+                width: 100%;
+
+                     .socialApps{
+                    width: 20%;
+                }
+
+                .phone{
+                    width: 50%;
+                }
+                
+                .support{
+                    width: 30%;
+                    text-align: center;
+                }
+            }
+
+            .box2{
+                width: 100%;
+                height: 50px;
+                justify-content: center;
+            }
+        }
+    }
+
+    .One{
+        .container{
+            .nav{
+                flex-direction: column;
+                height: auto !important;
+
+                .logo{
+                    width: 100%;
+                    height: 50px;
+                }
+
+                .input-box{
+                    width: 100%;
+
+                    .main-box{
+                        flex-wrap: wrap;
+                        height: auto;
+
+                        .category{
+                            width: 100%;
+                            border-top-right-radius: 5px;
+                            border-bottom-left-radius: 0px;
+                            border-right: 0px;
+                        }
+
+                        input{
+                            width: 100%;
+                            height: 60px;
+                        }
+
+                        .icon{
+                            display: none;
+                        }
+                    }
+                }
+
+                .wishlist{
+                    width: 100%;
+                    height: 50px;
+                }
+
+                .create-button{
+                    width: 100%;
+                    height: 60px;
+                }
+
+                .categories-modal{
+                    .container{
+                        .categories{
+                            width: 100%;
+                        }
+                        .category-list{
+                            display: none;
+                        }
+                        .category-list-resp{
+                            display: none;
+                            width: 100%;
+                            height: auto;
+                            z-index: 90;
+                            background-color: aquamarine;
+                            .listbox1{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list1{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list2{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list3{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list4{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list5{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list6{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox2{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list7{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list8{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list9{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list10{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list11{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list12{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox3{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list13{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list14{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list15{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list16{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list17{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list18{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox4{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list19{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list20{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list21{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list22{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list23{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list24{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox5{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list25{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list26{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list27{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list28{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list29{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list30{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox6{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list31{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list32{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list33{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list34{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list35{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list36{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox7{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list37{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list38{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list39{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list40{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list41{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list42{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox8{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list43{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list44{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list45{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list46{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list47{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list48{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox9{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list49{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list50{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list51{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list52{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list53{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list54{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox10{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list55{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list56{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list57{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list58{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list59{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list60{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+                        }
+                        .popular-search{
+                            display: none;
+                        }
+                    }
+                }
+
+                .search-modal{
+                    top: 180px;
+                    left: 2%;
+                    width: 95%;
+                }
+            }
+        }
+    }
+
+    .Two{
+        .container{
+
+            .title{
+                justify-content: center;
+                height: 100px;
+            }
+
+            .category-box1{
+                justify-content: space-evenly;
+
+                .card-category1{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category2{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category3{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category4{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category5{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category6{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .category-box2{
+                justify-content: space-evenly;
+
+                .card-category7{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category8{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category9{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category10{
+                    width: 40%;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category11{
+                    width: 40%;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .register-box{
+                width: 100%;
+                height: 750px;
+                top: 0px;
+                left: 0px;
+                transform: none;
+
+                .main-box{
+                    width: 90%;
+                    height: 550px;
+
+                    .form-box{
+                        .form-options{
+                            .tel-box{
+                                width: 35%;
+                            }
+                        }
+                        .email-input{
+                            .box{
+                                .email{
+                                    padding: 5px;
+                                }
+                            }
+                        }
+                        .daxilol{
+                            padding-top: 10px;
+                        }
+                    }
+                }
+            }
+
+            .forgot-password{
+                width: 100%;
+                height: 650px;
+                top: 0px;
+                left: 0px;
+                transform: none;
+                
+                .main-box{
+                    width: 90%;
+                    height: 550px;
+                    
+                    .main-box{
+                        .options-box{
+                            .option-phone{
+                                width: 30%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .check-email-modal{
+                width: 100%;
+                height: 750px;
+                top: 0px;
+                left: 0px;
+                transform: none;
+
+                .main-box{
+                    width: 90%;
+                    height: 550px;
+
+                    .main-box{
+                        .code-box{
+                            width: 90%;
+                            .boxes{
+                                p{
+                                    right: 25%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .check-phone-modal{
+                width: 100%;
+                height: 650px;
+                top: 0px;
+                left: 0px;
+                transform: none;
+
+                .main-box{
+                    width: 90%;
+                    height: 550px;
+                    .main-box{
+                        .code-box{
+                            width: 90%;
+                            .boxes{
+                                p{
+                                    right: 25%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .reset-password{
+                width: 100%;
+                height: 750px;
+                top: 0px;
+                left: 0px;
+                transform: none;
+
+                .main-box{
+                    width: 90%;
+                    height: 550px;
+                    .check-box{
+                        .container{
+                            width: 30% !important;
+                        }
+                    }
+                }
+            }
+
+            .new-user-modal{
+                align-items: initial;
+                width: 100%;
+                height: 750px;
+                top: 0px;
+                left: 0px;
+                transform: none;
+
+                .main-box{
+                    .modal-title{
+                        .fa-x{
+                            top: 0px;
+                            right: 20px;
+                        }
+                    }
+                    .form-box{
+                        .inputbox1{
+                            .box-input1{
+                                .input{
+                                    width: 90%;
+                                }
+                            }
+                        }
+                        .inputbox2{
+                            .box-input1{
+                                .input{
+                                    width: 90%;
+                                }
+                            }
+                        }
+                        .inputbox3{
+                            .box-input1{
+                                .input{
+                                    width: 90%;
+                                    input{
+                                        width: 60%;
+                                    }
+                                }
+                            }
+                        }
+                        .inputbox4{
+                            .box-input1{
+                                .input{
+                                    width: 90%;
+                                }
+                            }
+                        }
+                        .inputbox5{
+                            .input{
+                                width: 60%;
+                            }
+                            .photo-code{
+                                width: 20%;
+                            }
+                        }
+                        .check-box{
+                            .container{
+                                width: 60%;
+                            }
+                        }
+                        .button-1{
+                            button{
+                                width: 90%;
+                            }
+                        }
+                        .button-2{
+                            button{
+                                width: 90%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .check-register{
+                width: 100%;
+                height: 750px;
+                top: 0px;
+                left: 0px;
+                transform: none;
+                .main-box{
+                    .number-boxes{
+                        p{
+                            right: 20%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .Three{
+        .container{
+
+            .card-boxes{
+                justify-content: center;
+
+                .premium-card{
+                    width: 250px;
+                }
+
+                .elan-card{
+                    width: 250px;
+                }
+            }
+
+            .load-more{
+                button{
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    .Four{
+        .container{
+
+            .card-boxes{
+                justify-content: center;
+
+                .elan-card{
+                    width: 250px;
+                }
+            }
+
+            .load-more{
+
+                button{
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    .Five{
+        .container{
+
+            .title{
+                h1{
+                    font-size: 20px;
+                }
+                .nice-select{
+                    transform: translateX(-5px);
+                    .list{
+                        transform: translateX(-50px);
+                    }
+                }
+            }
+
+            .card-boxes{
+                justify-content: center;
+
+                .vip-card{
+                    width: 250px;
+                }
+
+                .elan-card{
+                    width: 250px;
+                }
+            }
+
+            .load-more{
+
+                button{
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    .Six{
+        .container{
+
+            .famous-requests{
+
+                .title{
+                    justify-content: center;
+                }
+
+                .request-boxes{
+
+                    a{
+                        width: 45%;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .container{
+            flex-wrap: wrap;
+
+            .logo{
+                display: flex;
+                align-items:  center;
+                justify-content: center;
+                height: 200px;
+                a{
+                    display: none;
+                }
+                .button{
+                    margin-left: 50px;
+                }
+            }
+
+            .nav-box{
+                height: auto;
+                flex-wrap: wrap;
+
+                .contact{
+                    width: 100%;
+                    height: 200px;
+
+                    .mail-tel{
+                        text-align: center;
+
+                        ::after{
+                            width: 100%;
+                        }
+                    }
+
+                    .apps{
+                        justify-content: center;
+                    }
+                }
+
+                .categories{
+                    width: 100%;
+                    height: 300px;
+                }
+
+                .options{
+                    text-align: center;
+                    width: 100%;
+                    height: 200px;
+                }
+
+                .help{
+                    width: 100%;
+                    height: 200px;
+                }
+            }
+
+            .footer-alt{
+                flex-wrap: wrap;
+
+                .p1{
+                    text-align: center;
+                    width: 100%;
+                }
+
+                .p2{
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    header{
+        height: 100px;
+
+        .container{
+
+            .box1{
+                width: 70%;
+
+                .socialApps{
+                    width: 20%;
+                }
+
+                .phone{
+                    width: 50%;
+                }
+                
+                .support{
+                    width: 30%;
+                    text-align: center;
+                }
+            }
+
+            .box2{
+                width: 30%;
+                height: 100px;
+                justify-content: center;
+
+                button{
+                    margin-left: 30px;
+
+                    p span{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .One{
+        .container{
+            .nav{
+                flex-direction: column;
+                height: auto !important;
+
+                .logo{
+                    width: 100%;
+                    height: 50px;
+                }
+
+                .input-box{
+                    width: 100%;
+
+                    .main-box{
+                        flex-wrap: wrap;
+                        height: auto;
+
+                        .category{
+                            width: 100%;
+                            border-top-right-radius: 5px;
+                            border-bottom-left-radius: 0px;
+                            border-right: 0px;
+                        }
+
+                        input{
+                            width: 100%;
+                            height: 60px;
+                        }
+
+                        .icon{
+                            display: none;
+                        }
+                    }
+                }
+
+                .wishlist{
+                    width: 100%;
+                    height: 50px;
+                }
+
+                .create-button{
+                    width: 100%;
+                    height: 60px;
+                }
+
+                .categories-modal{
+                    .container{
+                        .categories{
+                            width: 100%;
+                        }
+                        .category-list{
+                            display: none;
+                        }
+                        .category-list-resp{
+                            display: none;
+                            width: 100%;
+                            height: auto;
+                            z-index: 90;
+                            background-color: aquamarine;
+                            .listbox1{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list1{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list2{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list3{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list4{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list5{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list6{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox2{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list7{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list8{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list9{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list10{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list11{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list12{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox3{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list13{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list14{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list15{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list16{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list17{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list18{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox4{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list19{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list20{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list21{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list22{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list23{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list24{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox5{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list25{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list26{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list27{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list28{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list29{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list30{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox6{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list31{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list32{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list33{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list34{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list35{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list36{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox7{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list37{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list38{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list39{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list40{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list41{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list42{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox8{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list43{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list44{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list45{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list46{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list47{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list48{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox9{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list49{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list50{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list51{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list52{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list53{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list54{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+    
+                            .listbox10{
+                                display: none;
+                                width: 100%;
+                                height: 240px;
+                                background-color: white;
+    
+                                .list55{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list56{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list57{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list58{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list59{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+    
+                                .list60{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(247, 247, 252, 1);
+                                    }
+    
+                                    p{
+                                        color: rgba(125, 128, 146, 1);
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        font-family: DM Sans;
+                                        padding-left: 20px;
+                                    }
+    
+                                    .fa-chevron-right{
+                                        color: rgba(125, 128, 146, 1);
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+                        }
+                        .popular-search{
+                            display: none;
+                        }
+                    }
+                }
+
+                .search-modal{
+                    top: 180px;
+                    left: 3%;
+                    width: 94%;
+                }
+            }
+        }
+    }
+
+    .Two{
+        .container{
+
+            .title{
+                justify-content: center;
+                height: 100px;
+            }
+
+            .category-box1{
+                justify-content: space-evenly;
+
+                .card-category1{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category2{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category3{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category4{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category5{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category6{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .category-box2{
+                justify-content: space-evenly;
+
+                .card-category7{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category8{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category9{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category10{
+                    width: 200px;;
+                    margin-bottom: 20px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+                .card-category11{
+                    width: 200px;
+                    .name p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .Three{
+        .container{
+
+            .card-boxes{
+                justify-content: space-evenly;
+
+                .premium-card{
+                    width: 250px;
+                }
+
+                .elan-card{
+                    width: 250px;
+                }
+            }
+
+            .load-more{
+                button{
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    .Four{
+        .container{
+
+            .card-boxes{
+                justify-content: space-evenly;
+
+                .elan-card{
+                    width: 250px;
+                }
+            }
+
+            .load-more{
+
+                button{
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    .Five{
+        .container{
+
+            .title{
+                h1{
+                    font-size: 20px;
+                }
+                .nice-select{
+                    transform: translateX(-5px);
+                    .list{
+                        transform: translateX(-50px);
+                    }
+                }
+            }
+
+            .card-boxes{
+                justify-content: space-evenly;
+
+                .vip-card{
+                    width: 250px;
+                }
+
+                .elan-card{
+                    width: 250px;
+                }
+            }
+
+            .load-more{
+
+                button{
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    .Six{
+        .container{
+
+            .famous-requests{
+
+                .title{
+                    justify-content: center;
+                }
+
+                .request-boxes{
+
+                    a{
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .container{
+            flex-wrap: wrap;
+
+            .logo{
+                display: flex;
+                align-items:  center;
+                justify-content: space-around;
+                height: 200px;
+                a{
+                    display: block;
+                }
+                .button{
+                    margin-left: 50px;
+                }
+            }
+
+            .nav-box{
+                height: auto;
+                flex-wrap: wrap;
+
+                .contact{
+                    width: 100%;
+                    height: 200px;
+
+                    .mail-tel{
+                        text-align: center;
+
+                        ::after{
+                            width: 100%;
+                        }
+                    }
+
+                    .apps{
+                        justify-content: center;
+                    }
+                }
+
+                .categories{
+                    width: 100%;
+                    height: 300px;
+                }
+
+                .options{
+                    text-align: center;
+                    width: 100%;
+                    height: 200px;
+                }
+
+                .help{
+                    width: 100%;
+                    height: 200px;
+                }
+            }
+
+            .footer-alt{
+                flex-wrap: wrap;
+
+                .p1{
+                    text-align: center;
+                    width: 100%;
+                }
+
+                .p2{
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .One{
+        .container{
+            .nav{
+                .categories-modal{
+                    .container{
+                        .categories{
+                            width: 30%;
+                            .category1{
+                                .fa-chevron-right{
+                                    margin-left: 60px;
+                                }
+                            }
+                            .category2{
+                                .fa-chevron-right{
+                                    margin-right: 20px !important;
+                                }
+                            }
+                            .category3{
+                                .fa-chevron-right{
+                                    margin-right: 20px !important;
+                                }
+                            }
+                            .category4{
+                                .fa-chevron-right{
+                                    margin-left: 63px !important;
+                                }
+                            }
+                            .category5{
+                                .fa-chevron-right{
+                                    margin-left: 42px !important;
+                                }
+                            }
+                            .category6{
+                                .fa-chevron-right{
+                                    margin-left: 42px !important;
+                                }
+                            }
+                            .category7{
+                                .fa-chevron-right{
+                                    margin-left: 52px !important;
+                                }
+                            }
+                            .category8{
+                                .fa-chevron-right{
+                                    margin-left: 75px !important;
+                                }
+                            }
+                            .category9{
+                                .fa-chevron-right{
+                                    margin-left: 42px !important;
+                                }
+                            }
+                            .category10{
+                                .fa-chevron-right{
+                                    margin-left: 25px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .category-list{
+                    width: 40%;
+                    .listbox1{
+                        width: 50% !important;
+                    }
+                    .listbox2{
+                        width: 50% !important;
+                    }
+                    .listbox3{
+                        width: 50% !important;
+                    }
+                    .listbox4{
+                        width: 50% !important;
+                    }
+                    .listbox5{
+                        width: 50% !important;
+                    }
+                    .listbox6{
+                        width: 50% !important;
+                    }
+                    .listbox7{
+                        width: 50% !important;
+                    }
+                    .listbox8{
+                        width: 50% !important;
+                    }
+                    .listbox9{
+                        width: 50% !important;
+                    }
+                    .listbox10{
+                        width: 50% !important;
+                    }
+                }
+
+                .popular-search{
+                    .main-box{
+                        width: 100%;
+                    }
+                }
+
+                .search-modal{
+                    left: 25%;
+                }
+            }
+        }
+    }
+
+    .Two{
+        .container{
+            .category-box1{
+
+                .card-category1{
+                    width: 18%;
+                }
+                .card-category2{
+                    width: 18%;
+                }
+                .card-category3{
+                    width: 18%;
+                }
+                .card-category4{
+                    width: 18%;
+                }
+                .card-category5{
+                    width: 18%;
+                }
+                .card-category6{
+                    width: 18%;
+                }
+            }
+
+            .category-box2{
+                .card-category7{
+                    width: 17%;
+                }
+                .card-category8{
+                    width: 17%;
+                }
+                .card-category9{
+                    width: 17%;
+                }
+                .card-category10{
+                    width: 17%;
+                }
+                .card-category11{
+                    width: 17%;
+                }
+            }
+        }
+    }
+
+    .Three{
+        .container{
+            .card-boxes{
+                .premium-card{
+                    width: 30%;
+                }
+                .elan-card{
+                    width: 30%;
+                }
+            }
+        }
+    }
+
+    .Four{
+        .container{
+            .card-boxes{
+                .elan-card{
+                    width: 30%;
+                }
+            }
+        }
+    }
+
+    .Five{
+        .container{
+            .title{
+                h1{
+                    font-size: 20px;
+                }
+                .nice-select{
+                    transform: translateX(-5px);
+                    .list{
+                        transform: translateX(-50px);
+                    }
+                }
+            }
+            .card-boxes{
+                .vip-card{
+                    width: 30%;
+                }
+                .elan-card{
+                    width: 30%;
+                }
+            }
+        }
+    }
+
+    .Six{
+        .famous-requests{
+            .request-boxes{
+                a{
+                    width: 18% !important;
+                }
+            }
+        }
+    }
+
+    footer{
+        .container{
+            .logo{
+                justify-content: space-around;
+            }
+
+            .nav-box{
+                .contact{
+                    .mail-tel{
+                        p{
+                            margin-left: 10px;
+                        }
+                    }
+                    .apps{
+                        a{
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+
+            .footer-alt{
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px){
+
+    .One{
+        .container{
+            .nav{
+                .categories-modal{
+                    .container{
+                        .categories{
+                            width: 26%;
+                        }
+                    }
+                }
+                .search-modal{
+                    left: 25.4%;
+                }
+            }
+        }
+    }
+
+    .Three{
+        .container{
+            .card-boxes{
+                .premium-card{
+                    width: 23%;
+                }
+                .elan-card{
+                    width: 23%;
+                }
+            }
+        }
+    }
+
+    .Four{
+        .container{
+            .card-boxes{
+                .elan-card{
+                    width: 23%;
+                }
+            }
+        }
+    }
+
+    .Five{
+        .container{
+            .title{
+                h1{
+                    font-size: 20px;
+                }
+                .nice-select{
+                    transform: translateX(-5px);
+                    .list{
+                        transform: translateX(-50px);
+                    }
+                }
+            }
+            .card-boxes{
+                .vip-card{
+                    width: 23%;
+                }
+                .elan-card{
+                    width: 23%;
+                }
+            }
+        }
+    }
+
+    .Six{
+        .famous-requests{
+            .request-boxes{
+                a{
+                    width: 15% !important;
+                }
+            }
+        }
+    }
+
+    footer{
+        .container{
+            .logo{
+                justify-content: space-between;
+                a{
+                    margin-left: 10px;
+                }
+            }
+
+            .nav-box{
+                .contact{
+                    .mail-tel{
+                        p{
+                            margin-left: 10px;
+                        }
+                    }
+                    .apps{
+                        a{
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+
+            .footer-alt{
+                justify-content: space-between;
+            }
+        }
+    }
+}
