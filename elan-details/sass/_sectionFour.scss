@@ -1,0 +1,225 @@
+.Four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f6f8fe;
+
+    .container{
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+
+        .title{
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            width: 100%;
+            height: 100px;
+
+            h1{
+                font-size: 30px;
+                font-weight: 700;
+                font-family: DM Sans;
+                color: rgba(72, 75, 94, 1);
+            }
+
+            button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 180px;
+                height: 35px;
+                background-color: rgba(246, 248, 254, 1);
+                border: 1px solid rgba(233, 232, 238, 1);
+                cursor: pointer;
+                outline: none;
+                &:hover{
+                    border: 1px solid black;
+                }
+
+                .fa-chevron-down{
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .card-boxes{
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            height: auto;
+
+            .elan-card{
+                width: 18%;
+                height: 320px;
+                margin-top: 20px;
+                border-radius: 3px;
+                cursor: pointer;
+                background-color: white;
+
+                .photo{
+                    position: relative;
+                    width: 100%;
+                    height: 160px;
+
+                    img{
+                        width: 100%;
+                        height: 160px;
+                    }
+
+                    .fa-heart{
+                        position: absolute;
+                        top: 15px;
+                        right: 15px;
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+
+                .name{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 50px;
+
+                    h1{
+                        color: #656569;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 21px;
+                        letter-spacing: 0.03em;
+                        padding-left: 10px;
+                    }
+                }
+
+                .about{
+                    width: 100%;
+                    height: 60px;
+
+                    p{
+                        padding-left: 10px;
+                        padding-top: 10px;
+                        color: rgba(151, 151, 152, 1);
+
+                        .fa-solid{
+                            color: rgba(208, 208, 210, 1);
+                        }
+                    }
+                }
+
+                .price{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    width: 100%;
+                    height: 50px;
+
+                    p{
+                        padding-right: 15px;
+                        color:  rgba(72, 75, 94, 1);
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        font-family: DM Sans;
+                    }
+                }
+            }
+
+            .options{
+                display: none;
+                position: absolute;
+                top: 20px;
+                right: 10px;
+                width: 192px;
+                height: 123px;
+                border-radius: 5px;
+                background-color: white;
+
+                .opt1{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+                    cursor: pointer;
+                    border-bottom: 1px solid gray;
+                    &:hover{
+                        p{
+                            color: rgba(106, 91, 205, 1);
+                        }
+                    }
+
+                    p{
+                        margin-left: 10px;
+                    }
+                }
+
+                .opt2{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+                    cursor: pointer;
+                    border-bottom: 1px solid gray;
+                    &:hover{
+                        p{
+                            color: rgba(106, 91, 205, 1);
+                        }
+                    }
+
+                    p{
+                        margin-left: 10px;
+                    }
+                }
+
+                .opt3{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+                    cursor: pointer;
+                    border-bottom: 1px solid gray;
+                    &:hover{
+                        p{
+                            color: rgba(106, 91, 205, 1);
+                        }
+                    }
+
+                    p{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .load-more{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 150px;
+
+            button{
+                width: 385px;
+                height: 66px;
+                background: #E9E8EE;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                color: rgba(72, 75, 94, 1);
+                font-family: DM Sans;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                &:hover{
+                    border: 1px solid rgba(106, 91, 205, 1);
+                    color: rgba(106, 91, 205, 1);
+                }
+            }
+        }
+    }
+}

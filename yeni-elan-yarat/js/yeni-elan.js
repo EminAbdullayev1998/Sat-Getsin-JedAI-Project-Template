@@ -1,92 +1,63 @@
-// =============================================================================================================
-// Premium elanlar category dropdown kodlari Start==============================================================
-// =============================================================================================================
+// ===========================================================================================================
+// Categories modal js kodlari START =========================================================================
+// ===========================================================================================================
 
-let select = document.querySelector('#select');
-let options = document.querySelector('#options');
-let opt1 = document.querySelector('#opt1');
-let opt2 = document.querySelector('#opt2');
-let opt3 = document.querySelector('#opt3');
-
-select.onclick = ()=>{
-    if (options.style.display === 'none') {
-        options.style.display = 'block'
-    }else{
-        options.style.display = 'none'
+    // kateqoriyalar kodu umumilikde
+    $(".categories div").hover(function(){
+        $(".categories div").removeClass("active")
+        $(this).addClass("active")
+        let child = $(this).data("id")  
+        $(".category-list .listbox").css("display","none")
+        $(`.category-list .listbox:nth-child(${child})`).css("display","block")
+    })
+    if (window.innerWidth <= 768){
+        $(".categories div").click(function(){
+            $(".categories div").removeClass("active")
+            $(this).addClass("active")
+            let child = $(this).data("id")  
+            $(".categories").css("display","none")
+            $(".category-list-resp").css("display","block")
+            $(".category-list-resp .listbox").css("display","none")
+            $(`.category-list-resp .listbox:nth-child(${child})`).css("display","block")
+        })
     }
-}
-
-opt1.onclick = ()=>{
-    select.innerHTML = opt1.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
-}
-
-opt2.onclick = ()=>{
-    select.innerHTML = opt2.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
-}
-
-opt3.onclick = ()=>{
-    select.innerHTML = opt3.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
-}
-
-// =============================================================================================================
-// Premium elanlar category dropdown kodlari End================================================================
-// =============================================================================================================
 
 
 
+// category secin butonu ikon deyismesi ve category modalin acilmasi kodlari
+categoryBtn.onclick = () => {
+    try {
+      if (imgBtn.src.endsWith('category.png')) {
+        imgBtn.src = 'img/x-categories.png';
+      } else {
+        imgBtn.src = 'img/category.png';
+      }
+    } catch (error) {
+      console.error('Error changing image:', error);
+    };
 
-// =============================================================================================================
-// En son elanlar category dropdown kodlari Start===============================================================
-// =============================================================================================================
-
-let select1 = document.querySelector('#select1');
-let options2 = document.querySelector('#options2');
-let opt4 = document.querySelector('#opt4');
-let opt5 = document.querySelector('#opt5');
-let opt6 = document.querySelector('#opt6');
-
-
-select1.onclick = ()=>{
-    if (options2.style.display === 'none') {
-        options2.style.display = 'block';
+    if (categoriesModal.style.display === 'none') {
+        categoriesModal.style.display = 'flex';
+        categoryBtn.classList.add('active-category');
+        // balaca ekranda ayri modalin acilib baglanmasi
+        categoryListResp.style.display = 'none';
+        categories.style.display = 'block';
     }else{
-        options2.style.display = 'none';
-    }
-}
+        categoriesModal.style.display = 'none';
+        categoryBtn.classList.remove('active-category');
+    };
+
+};
 
 
-opt4.onclick = ()=>{
-    select1.innerHTML = opt4.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
-}
-
-opt5.onclick = ()=>{
-    select1.innerHTML = opt5.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
-}
-
-opt6.onclick = ()=>{
-    select1.innerHTML = opt6.innerHTML + '<i class="fa-solid fa-chevron-down"></i>'
-}
-
-
-// =============================================================================================================
-// En son elanlar category dropdown kodlari End=================================================================
-// =============================================================================================================
-
-
-
-// ============================================================================================================
-// Jquery nice select plugin Start ============================================================================
-// ============================================================================================================
-
-$(document).ready(function() {
-    $('#my-select').niceSelect();
+// search inputa focus oldugunda search-modal acilmasi kodlari
+searchInput.addEventListener('focus', function () {
+    searchModal.style.display = 'block';
 });
 
-// =============================================================================================================
-// Jquery nice select plugin End ===============================================================================
-// =============================================================================================================
-
-
+// ===========================================================================================================
+// Categories modal js kodlari END ===========================================================================
+// ===========================================================================================================
 
 
 
@@ -250,7 +221,6 @@ telPassInput.addEventListener('input', checkTelInput);
 // ===========================================================================================================
 // Forgot Password modal kodlari END =========================================================================
 // ===========================================================================================================
-
 
 
 
@@ -483,9 +453,6 @@ for (let i = 0; i < numberInputs1.length; i++) {
   input1.setAttribute("maxlength", 1);
 };
 
-
-
-
 // ===========================================================================================================
 // CHECK PHONE modal kodlari END ============================================================================
 // ===========================================================================================================
@@ -600,9 +567,6 @@ xResetPass.onclick = ()=>{
     resetPassword.style.display = 'none';
 }
 
-
-
-
 // ===========================================================================================================
 // RESET PASSWORD modal kodlari END ==========================================================================
 // ===========================================================================================================
@@ -682,12 +646,9 @@ daxilOlNewUser.onclick = ()=>{
     newUserModal.style.display = 'none';
 }
 
-
 // ===========================================================================================================
 // NEW USER REGISTER modal kodlari END ======================================================================
 // ===========================================================================================================
-
-
 
 
 
@@ -828,94 +789,35 @@ for (let i = 0; i < numberInputs2.length; i++) {
         hidemodal2();
     }
 
-
-
 // ===========================================================================================================
 // CHECK REGISTER  modal kodlari END =========================================================================
 // ===========================================================================================================
 
 
 
-
-
-// ===========================================================================================================
-// Categories modal js kodlari START =========================================================================
-// ===========================================================================================================
-
-    // kateqoriyalar kodu umumilikde
-    $(".categories div").hover(function(){
-        $(".categories div").removeClass("active")
-        $(this).addClass("active")
-        let child = $(this).data("id")  
-        $(".category-list .listbox").css("display","none")
-        $(`.category-list .listbox:nth-child(${child})`).css("display","block")
-    })
-    if (window.innerWidth <= 768){
-        $(".categories div").click(function(){
-            $(".categories div").removeClass("active")
-            $(this).addClass("active")
-            let child = $(this).data("id")  
-            $(".categories").css("display","none")
-            $(".category-list-resp").css("display","block")
-            $(".category-list-resp .listbox").css("display","none")
-            $(`.category-list-resp .listbox:nth-child(${child})`).css("display","block")
-        })
-    }
-
-
-// category secin butonu ikon deyismesi ve category modalin acilmasi kodlari
-categoryBtn.onclick = () => {
-    try {
-      if (imgBtn.src.endsWith('category.png')) {
-        imgBtn.src = 'img/x-categories.png';
-      } else {
-        imgBtn.src = 'img/category.png';
-      }
-    } catch (error) {
-      console.error('Error changing image:', error);
-    };
-
-    if (categoriesModal.style.display === 'none') {
-        categoriesModal.style.display = 'flex';
-        categoryBtn.classList.add('active-category');
-        // balaca ekranda ayri modalin acilib baglanmasi
-        categoryListResp.style.display = 'none';
-        categories.style.display = 'block';
-    }else{
-        categoriesModal.style.display = 'none';
-        categoryBtn.classList.remove('active-category');
-    };
-
-};
-
-// ===========================================================================================================
-// Categories modal js kodlari END ===========================================================================
-// ===========================================================================================================
-
-
-// search inputa focus oldugunda search-modal acilmasi kodlari
-searchInput.addEventListener('focus', function () {
-    searchModal.style.display = 'block';
+// category dropdown kodlari
+$(document).ready(function() {
+    $('.category').click(function() {
+      $(this).find('.category-accordion').slideToggle();
+      $(this).find('.fa-chevron-down').toggleClass('fa-rotate-180');
+    });
 });
 
+// input type upload kodlari
+const uploadCard = document.querySelector('.upload-card');
 
-
-// elan kartlarina tiklandiginda elan details sehifesinin acilmasi
-let cards = document.querySelectorAll('.elan-card');
-
-cards.forEach(card => {
-  card.addEventListener('click', () => {
-    location.href = 'elan-details/elan-details.html';
-  });
+uploadCard.addEventListener('click', function(e) {
+e.preventDefault();
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.style.display = 'none';
+  uploadCard.appendChild(input);
+  input.click();
 });
-
 
 
 document.body.onclick = e =>{
-    if (e.target !== select && e.target !== select1  && e.target !== options && e.target !== options2 && e.target !== searchModal && e.target !== searchInput && !searchModal.contains(e.target)) {
-        options.style.display = 'none';
-        options2.style.display = 'none';
+    if (e.target !== searchModal && e.target !== searchInput && !searchModal.contains(e.target)) {
         searchModal.style.display = 'none';
     }
 }
-
