@@ -893,6 +893,25 @@ categoryBtn.onclick = () => {
 // ===========================================================================================================
 
 
+// logini yoxlamaq ve hesabim sehifesine kecid kodlari
+const mockEmail = 'emin@gmail.com';
+const mockPassword = '12345';
+
+daxilOl.onclick = ()=>{
+    const email = emailInput.value;
+    const password = passwordInput.value;
+
+    if (email === mockEmail && password === mockPassword) {
+         window.location.href = './hesabım/hesabım.html';
+    }else if (email === '' || password === '') {
+        alert('Email və Şifərnizi daxil edin');
+    }else{
+        alert("Email və ya şifrə yanlışdır!");
+    }
+
+}
+
+
 // search inputa focus oldugunda search-modal acilmasi kodlari
 searchInput.addEventListener('focus', function () {
     searchModal.style.display = 'block';
@@ -918,4 +937,3 @@ document.body.onclick = e =>{
         searchModal.style.display = 'none';
     }
 }
-
