@@ -1694,6 +1694,174 @@
         }
     }
 
+    .Three{
+        .container{
+            flex-wrap: wrap;
+
+            .catalog{
+                width: 100%;
+            }
+
+            .hero-box{
+                width: 100%;
+
+                .title{
+                    margin-left: 0px;
+
+                    h1{
+                        margin-left: 30px;
+                    }
+                }
+
+                .categories{
+                    margin-left: 0px;
+                    height: auto;
+                    flex-wrap: wrap;
+
+                    .butun{
+                        justify-content: center;
+                        width: 40%;
+                    }
+
+                    .aktiv{
+                        width: 40%;
+                    }
+
+                    .bitib{
+                        width: 40%;
+                    }
+
+                    .yoxlanisda{
+                        width: 40%;
+                    }
+
+                    .legv{
+                        width: 40%;
+                    }
+
+                    .ellipsis{
+                        width: 40%;
+
+                        .ellipsis-modal{
+                            left: -25px;
+                        }
+                    }
+                }
+
+                .list{
+                    margin-left: 0px;
+                }
+
+                .pagination{
+                    margin-left: 0px;
+                }
+            }
+
+            .hero-box3{
+                width: 100%;
+
+                .title{
+                    margin-left: 0px;
+
+                    h1{
+                        margin-left: 30px;
+                    }
+                }
+
+                .profile-photo{
+                    margin-left: 0px;
+
+                    .circle{
+                        margin-left: 30px;
+                    }
+                }
+
+                .about{
+                    margin-left: 0px;
+                    flex-wrap: wrap;
+
+                    .box1{
+                        width: 100%;
+
+                        .part1{
+                            .input{
+                                input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            .input{
+                                input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+
+                    .box2{
+                        width: 100%;
+
+                        .part1{
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .change-password{
+                    margin-left: 0px;
+
+                    .box{
+                        flex-wrap: wrap;
+
+                        .part1{
+                            width: 100%;
+
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            width: 100%;
+
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                    input{
+                                        width: 230px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .button-box{
+                    margin-left: 0px;
+                    button{
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+
     footer{
         .container{
             flex-wrap: wrap;
@@ -3445,6 +3613,170 @@
         }
     }
 
+    .Three{
+        .container{
+            flex-wrap: wrap;
+
+            .catalog{
+                width: 100%;
+            }
+
+            .hero-box{
+                width: 100%;
+
+                .title{
+                    margin-left: 0px;
+
+                    h1{
+                        margin-left: 30px;
+                    }
+                }
+
+                .categories{
+                    margin-left: 0px;
+                    height: auto;
+                    flex-wrap: wrap;
+
+                    .butun{
+                        justify-content: center;
+                        width: 40%;
+                    }
+
+                    .aktiv{
+                        width: 40%;
+                    }
+
+                    .bitib{
+                        width: 40%;
+                    }
+
+                    .yoxlanisda{
+                        width: 40%;
+                    }
+
+                    .legv{
+                        width: 40%;
+                    }
+
+                    .ellipsis{
+                        width: 40%;
+                    }
+                }
+
+                .list{
+                    margin-left: 0px;
+                }
+
+                .pagination{
+                    margin-left: 0px;
+                }
+            }
+
+            .hero-box3{
+                width: 100%;
+
+                .title{
+                    margin-left: 0px;
+
+                    h1{
+                        margin-left: 30px;
+                    }
+                }
+
+                .profile-photo{
+                    margin-left: 0px;
+
+                    .circle{
+                        margin-left: 30px;
+                    }
+                }
+
+                .about{
+                    margin-left: 0px;
+                    flex-wrap: wrap;
+
+                    .box1{
+                        width: 100%;
+
+                        .part1{
+                            .input{
+                                input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            .input{
+                                input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+
+                    .box2{
+                        width: 100%;
+
+                        .part1{
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .change-password{
+                    margin-left: 0px;
+
+                    .box{
+                        flex-wrap: wrap;
+
+                        .part1{
+                            width: 100%;
+
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            width: 100%;
+
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                    input{
+                                        width: 230px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .button-box{
+                    margin-left: 0px;
+                    button{
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+
     footer{
         .container{
             flex-wrap: wrap;
@@ -3628,6 +3960,170 @@
         }
     }
 
+    .Three{
+        .container{
+            flex-wrap: wrap;
+
+            .catalog{
+                width: 100%;
+            }
+
+            .hero-box{
+                width: 100%;
+
+                .title{
+                    margin-left: 0px;
+
+                    h1{
+                        margin-left: 30px;
+                    }
+                }
+
+                .categories{
+                    margin-left: 0px;
+                    height: auto;
+                    flex-wrap: wrap;
+
+                    .butun{
+                        justify-content: center;
+                        width: 40%;
+                    }
+
+                    .aktiv{
+                        width: 40%;
+                    }
+
+                    .bitib{
+                        width: 40%;
+                    }
+
+                    .yoxlanisda{
+                        width: 40%;
+                    }
+
+                    .legv{
+                        width: 40%;
+                    }
+
+                    .ellipsis{
+                        width: 40%;
+                    }
+                }
+
+                .list{
+                    margin-left: 0px;
+                }
+
+                .pagination{
+                    margin-left: 0px;
+                }
+            }
+
+            .hero-box3{
+                width: 100%;
+
+                .title{
+                    margin-left: 0px;
+
+                    h1{
+                        margin-left: 30px;
+                    }
+                }
+
+                .profile-photo{
+                    margin-left: 0px;
+
+                    .circle{
+                        margin-left: 30px;
+                    }
+                }
+
+                .about{
+                    margin-left: 0px;
+                    flex-wrap: wrap;
+
+                    .box1{
+                        width: 100%;
+
+                        .part1{
+                            .input{
+                                input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            .input{
+                                input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+
+                    .box2{
+                        width: 100%;
+
+                        .part1{
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .change-password{
+                    margin-left: 0px;
+
+                    .box{
+                        flex-wrap: wrap;
+
+                        .part1{
+                            width: 100%;
+
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            width: 100%;
+
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                    input{
+                                        width: 230px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .button-box{
+                    margin-left: 0px;
+                    button{
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+
     footer{
         .container{
             .logo{
@@ -3671,6 +4167,170 @@
                 }
                 .search-modal{
                     left: 25.4%;
+                }
+            }
+        }
+    }
+
+    .Three{
+        .container{
+            flex-wrap: wrap;
+
+            .catalog{
+                width: 100%;
+            }
+
+            .hero-box{
+                width: 100%;
+
+                .title{
+                    margin-left: 0px;
+
+                    h1{
+                        margin-left: 30px;
+                    }
+                }
+
+                .categories{
+                    margin-left: 0px;
+                    height: auto;
+                    flex-wrap: wrap;
+
+                    .butun{
+                        justify-content: center;
+                        width: 30%;
+                    }
+
+                    .aktiv{
+                        width: 30%;
+                    }
+
+                    .bitib{
+                        width: 30%;
+                    }
+
+                    .yoxlanisda{
+                        width: 30%;
+                    }
+
+                    .legv{
+                        width: 30%;
+                    }
+
+                    .ellipsis{
+                        width: 30%;
+                    }
+                }
+
+                .list{
+                    margin-left: 0px;
+                }
+
+                .pagination{
+                    margin-left: 0px;
+                }
+            }
+
+            .hero-box3{
+                width: 100%;
+
+                .title{
+                    margin-left: 0px;
+
+                    h1{
+                        margin-left: 30px;
+                    }
+                }
+
+                .profile-photo{
+                    margin-left: 0px;
+
+                    .circle{
+                        margin-left: 30px;
+                    }
+                }
+
+                .about{
+                    margin-left: 0px;
+                    flex-wrap: wrap;
+
+                    .box1{
+                        width: 100%;
+
+                        .part1{
+                            .input{
+                                input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            .input{
+                                input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+
+                    .box2{
+                        width: 100%;
+
+                        .part1{
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .change-password{
+                    margin-left: 0px;
+
+                    .box{
+                        flex-wrap: wrap;
+
+                        .part1{
+                            width: 100%;
+
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        .part2{
+                            width: 100%;
+
+                            .input-box{
+                                .input{
+                                    width: 300px;
+                                    input{
+                                        width: 230px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .button-box{
+                    margin-left: 0px;
+                    button{
+                        margin-right: 30px;
+                    }
                 }
             }
         }

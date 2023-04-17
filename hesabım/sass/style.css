@@ -2537,7 +2537,7 @@ header .container .box2 .account-options .exit a {
   height: auto;
   top: 50px;
   left: 0px;
-  z-index: 10;
+  z-index: 90;
   padding-bottom: 10px;
   border-radius: 10px;
   background-color: white;
@@ -5807,6 +5807,118 @@ footer .container .footer-alt .p2 {
     left: 2%;
     width: 95%;
   }
+  .Three .container {
+    flex-wrap: wrap;
+  }
+  .Three .container .catalog {
+    width: 100%;
+  }
+  .Three .container .hero-box {
+    width: 100%;
+  }
+  .Three .container .hero-box .title {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .title h1 {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box .categories {
+    margin-left: 0px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box .categories .butun {
+    justify-content: center;
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .aktiv {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .bitib {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .yoxlanisda {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .legv {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .ellipsis {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .ellipsis .ellipsis-modal {
+    left: -25px;
+  }
+  .Three .container .hero-box .list {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .pagination {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .title {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .title h1 {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box3 .profile-photo {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .profile-photo .circle {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box3 .about {
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box3 .about .box1 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .about .box1 .part1 .input input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box1 .part2 .input input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box2 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .about .box2 .part1 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box2 .part2 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .change-password .box {
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box3 .change-password .box .part1 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .change-password .box .part1 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 .input-box .input input {
+    width: 230px;
+  }
+  .Three .container .hero-box3 .button-box {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .button-box button {
+    margin-right: 30px;
+  }
   footer .container {
     flex-wrap: wrap;
   }
@@ -7324,6 +7436,115 @@ footer .container .footer-alt .p2 {
     left: 3%;
     width: 94%;
   }
+  .Three .container {
+    flex-wrap: wrap;
+  }
+  .Three .container .catalog {
+    width: 100%;
+  }
+  .Three .container .hero-box {
+    width: 100%;
+  }
+  .Three .container .hero-box .title {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .title h1 {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box .categories {
+    margin-left: 0px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box .categories .butun {
+    justify-content: center;
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .aktiv {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .bitib {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .yoxlanisda {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .legv {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .ellipsis {
+    width: 40%;
+  }
+  .Three .container .hero-box .list {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .pagination {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .title {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .title h1 {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box3 .profile-photo {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .profile-photo .circle {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box3 .about {
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box3 .about .box1 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .about .box1 .part1 .input input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box1 .part2 .input input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box2 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .about .box2 .part1 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box2 .part2 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .change-password .box {
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box3 .change-password .box .part1 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .change-password .box .part1 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 .input-box .input input {
+    width: 230px;
+  }
+  .Three .container .hero-box3 .button-box {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .button-box button {
+    margin-right: 30px;
+  }
   footer .container {
     flex-wrap: wrap;
   }
@@ -7454,6 +7675,115 @@ footer .container .footer-alt .p2 {
   .One .container .nav .search-modal {
     left: 25%;
   }
+  .Three .container {
+    flex-wrap: wrap;
+  }
+  .Three .container .catalog {
+    width: 100%;
+  }
+  .Three .container .hero-box {
+    width: 100%;
+  }
+  .Three .container .hero-box .title {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .title h1 {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box .categories {
+    margin-left: 0px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box .categories .butun {
+    justify-content: center;
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .aktiv {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .bitib {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .yoxlanisda {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .legv {
+    width: 40%;
+  }
+  .Three .container .hero-box .categories .ellipsis {
+    width: 40%;
+  }
+  .Three .container .hero-box .list {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .pagination {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .title {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .title h1 {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box3 .profile-photo {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .profile-photo .circle {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box3 .about {
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box3 .about .box1 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .about .box1 .part1 .input input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box1 .part2 .input input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box2 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .about .box2 .part1 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box2 .part2 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .change-password .box {
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box3 .change-password .box .part1 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .change-password .box .part1 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 .input-box .input input {
+    width: 230px;
+  }
+  .Three .container .hero-box3 .button-box {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .button-box button {
+    margin-right: 30px;
+  }
   footer .container .logo {
     justify-content: space-around;
   }
@@ -7473,6 +7803,115 @@ footer .container .footer-alt .p2 {
   }
   .One .container .nav .search-modal {
     left: 25.4%;
+  }
+  .Three .container {
+    flex-wrap: wrap;
+  }
+  .Three .container .catalog {
+    width: 100%;
+  }
+  .Three .container .hero-box {
+    width: 100%;
+  }
+  .Three .container .hero-box .title {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .title h1 {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box .categories {
+    margin-left: 0px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box .categories .butun {
+    justify-content: center;
+    width: 30%;
+  }
+  .Three .container .hero-box .categories .aktiv {
+    width: 30%;
+  }
+  .Three .container .hero-box .categories .bitib {
+    width: 30%;
+  }
+  .Three .container .hero-box .categories .yoxlanisda {
+    width: 30%;
+  }
+  .Three .container .hero-box .categories .legv {
+    width: 30%;
+  }
+  .Three .container .hero-box .categories .ellipsis {
+    width: 30%;
+  }
+  .Three .container .hero-box .list {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .pagination {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .title {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .title h1 {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box3 .profile-photo {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .profile-photo .circle {
+    margin-left: 30px;
+  }
+  .Three .container .hero-box3 .about {
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box3 .about .box1 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .about .box1 .part1 .input input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box1 .part2 .input input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box2 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .about .box2 .part1 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .about .box2 .part2 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .change-password .box {
+    flex-wrap: wrap;
+  }
+  .Three .container .hero-box3 .change-password .box .part1 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .change-password .box .part1 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 {
+    width: 100%;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 .input-box .input {
+    width: 300px;
+  }
+  .Three .container .hero-box3 .change-password .box .part2 .input-box .input input {
+    width: 230px;
+  }
+  .Three .container .hero-box3 .button-box {
+    margin-left: 0px;
+  }
+  .Three .container .hero-box3 .button-box button {
+    margin-right: 30px;
   }
   footer .container .logo {
     justify-content: space-between;
