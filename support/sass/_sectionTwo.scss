@@ -1,0 +1,76 @@
+.Two{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #f6f8fe;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+
+        .input-box{
+            width: 30%;
+            height: 200px;
+
+            .title{
+                width: 100%;
+                height: auto;
+
+                h1{
+                    color: rgba(101, 101, 105, 1);
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 48px;
+                    letter-spacing: 0.02em;
+                }
+            }
+
+            .box{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 100px;
+
+                .input{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 350px;
+                    height: 50px; 
+                    border-radius: 5px;
+                    background-color: rgba(255, 255, 255, 1);
+
+                    input{
+                        width: 290px;
+                        height: 30px;
+                        border: none;
+                        &:focus-visible{
+                            outline: none;
+                        }
+                    }
+
+                    .fa-magnifying-glass{
+                        font-size: 20px;
+                        color: rgba(168, 168, 170, 1);
+                    }
+                }
+            }
+        }
+
+        .photo-box{
+            width: 40%;
+            height: 400px;
+
+            img{
+                background: transparent;
+            }
+        }
+    }
+}

@@ -1,0 +1,261 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+    .container{
+        max-width: 1200px;
+        width: 100%;
+        height: auto;
+
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 100px;
+            border-bottom: 1px solid rgba(246, 246, 246, 1);
+
+            a{
+                text-decoration: none;
+                color: rgba(73, 75, 89, 1);
+                font-family: DM Sans;
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+            .button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(106, 91, 205, 1);
+                width: 247px;
+                height: 59px;
+                font-size: 16px;
+                border: none;
+                border-radius: 5px;
+                margin-right: 40px;
+                color: white;
+                &:hover{
+                    background-color: rgb(82, 71, 153);;
+                }
+
+                span{
+                    font-size: 30px;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .nav-box{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 400px;
+
+            .contact{
+                width: 24%;
+                height: 400px;
+                position: relative;
+
+                ::after {
+                    content: '';
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 60%;
+                    width: 1px;
+                    background-color: rgba(246, 246, 246, 1);
+                }
+
+                .mail-tel{
+                    position: relative;
+                    width: 100%;
+                    height: 100px;
+                    padding-bottom: 15px;
+
+                    ::after{
+                        content: '';
+                        position: absolute;
+                        top: 115px;
+                        left: 0;
+                        width: 60%;
+                        height: 3px;
+                        background-color: rgba(246, 246, 246, 1);
+                    }
+
+                    p:nth-child(1){
+                        color: rgba(154, 156, 168, 1);
+                        padding-top: 40px;
+                        font-weight: 700;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                    }
+
+                    p:nth-child(2){
+                        color: rgba(154, 156, 168, 1);
+                        padding-top: 20px;
+                        font-weight: 700;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                    }
+    
+                    .fa-phone{
+                        color: gray;
+                    }
+
+                    .fa-envelope{
+                        color: gray;
+                    }
+                }
+
+                .apps{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 100px;
+
+                    a{
+                        .fa-brands{
+                            color: gray;
+                            font-size: 23px;
+                        }
+    
+                        .fa-brands:nth-child(2){
+                            padding-left: 15px;
+                        }
+                    }
+
+                    a:nth-child(2){
+                        margin-left: 15px;
+                    }
+                }
+            }
+
+            .categories{
+                display: flex;
+                justify-content: center;
+                width: 24%;
+                height: 400px;
+
+                ul{
+
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            font-weight: 700;
+                            font-size: 17px;
+                            font-weight: DM Sans;
+                        }
+
+                        .element{
+                            color:  #9A9CA8;
+                            font-size: 15px;
+                            font-weight: 500;
+                            font-weight: DM Sans;
+                            &:hover{
+                                color: rgb(82, 71, 153);
+                            }
+                        }
+                    }
+
+                    li:nth-child(1){
+                        padding-top: 30px;
+                    }
+
+                    .nav{
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            .options{
+                width: 24%;
+                height: 400px;
+
+                ul{
+                    li{
+                        padding: 5px;
+
+                        a{
+                            text-decoration: none;
+                            color:  #9A9CA8;
+                            font-weight: 500;
+                            font-size: 15px;
+                            font-family: DM Sans;
+                            &:hover{
+                                color: rgb(82, 71, 153);
+                            }
+                        }
+                    }
+
+                    .nav{
+                        padding-top: 50px;
+                    }
+                }
+            }
+
+            .help{
+                display: flex;
+                justify-content: center;
+                width: 24%;
+                height: 400px;
+
+                ul{
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: rgba(154, 156, 168, 1);
+                        }
+
+                        .name{
+                            color: black;
+                            font-size: 17px;
+                            font-weight: 700;
+                            font-family: DM Sans;
+                        }
+                    }
+
+                    li:nth-child(1){
+                       padding-top: 30px;
+                    }
+
+                    .nav{
+                        padding-top: 10px;
+                        &:hover{
+                            color: rgba(106, 91, 205, 1);
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-alt{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 100px;
+            border-top: 1px solid rgba(246, 246, 246, 1);
+
+            .p1{
+                color: rgba(154, 156, 168, 1);
+                font-weight: 700;
+                font-size: 15px;
+                font-family: DM Sans;
+            }
+
+            .p2{
+                color: rgba(154, 156, 168, 1);
+                font-weight: 700;
+                font-size: 15px;
+                font-family: DM Sans;
+            }
+        }
+    }
+}
