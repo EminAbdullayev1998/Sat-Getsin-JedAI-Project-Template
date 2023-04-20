@@ -78,16 +78,6 @@ footer{
                     height: 100px;
                     padding-bottom: 15px;
 
-                    ::after{
-                        content: '';
-                        position: absolute;
-                        top: 115px;
-                        left: 0;
-                        width: 60%;
-                        height: 3px;
-                        background-color: rgba(246, 246, 246, 1);
-                    }
-
                     p:nth-child(1){
                         color: rgba(154, 156, 168, 1);
                         padding-top: 40px;

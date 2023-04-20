@@ -2616,15 +2616,6 @@ footer .container .nav-box .contact .mail-tel {
   height: 100px;
   padding-bottom: 15px;
 }
-footer .container .nav-box .contact .mail-tel ::after {
-  content: "";
-  position: absolute;
-  top: 115px;
-  left: 0;
-  width: 60%;
-  height: 3px;
-  background-color: rgb(246, 246, 246);
-}
 footer .container .nav-box .contact .mail-tel p:nth-child(1) {
   color: rgb(154, 156, 168);
   padding-top: 40px;
@@ -4248,24 +4239,43 @@ footer .container .footer-alt .p2 {
     width: 50% !important;
     height: 350px !important;
   }
+  .Three .container {
+    flex-direction: column;
+  }
+  .Three .container .suallar {
+    width: 100%;
+  }
+  .Three .container .hero-box {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .texniki-destek {
+    height: 200px;
+    flex-direction: column;
+  }
+  .Three .container .hero-box .texniki-destek .text {
+    width: 100%;
+  }
+  .Three .container .hero-box .texniki-destek .buttons {
+    width: 100%;
+  }
+  footer {
+    height: auto;
+  }
   footer .container {
-    flex-wrap: wrap;
+    height: auto;
   }
   footer .container .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
   }
   footer .container .logo a {
     display: none;
   }
-  footer .container .logo .button {
-    margin-left: 50px;
-  }
   footer .container .nav-box {
     height: auto;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   footer .container .nav-box .contact {
     width: 100%;
@@ -4273,9 +4283,6 @@ footer .container .footer-alt .p2 {
   }
   footer .container .nav-box .contact .mail-tel {
     text-align: center;
-  }
-  footer .container .nav-box .contact .mail-tel ::after {
-    width: 100%;
   }
   footer .container .nav-box .contact .apps {
     justify-content: center;
@@ -4291,18 +4298,7 @@ footer .container .footer-alt .p2 {
   }
   footer .container .nav-box .help {
     width: 100%;
-    height: 200px;
-  }
-  footer .container .footer-alt {
-    flex-wrap: wrap;
-  }
-  footer .container .footer-alt .p1 {
-    text-align: center;
-    width: 100%;
-  }
-  footer .container .footer-alt .p2 {
-    text-align: center;
-    width: 100%;
+    height: 300px;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -5787,6 +5783,26 @@ footer .container .footer-alt .p2 {
     width: 50% !important;
     height: 350px !important;
   }
+  .Three .container {
+    flex-direction: column;
+  }
+  .Three .container .suallar {
+    width: 100%;
+  }
+  .Three .container .hero-box {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .texniki-destek {
+    height: 200px;
+    flex-direction: column;
+  }
+  .Three .container .hero-box .texniki-destek .text {
+    width: 100%;
+  }
+  .Three .container .hero-box .texniki-destek .buttons {
+    width: 100%;
+  }
   footer .container {
     flex-wrap: wrap;
   }
@@ -5813,9 +5829,6 @@ footer .container .footer-alt .p2 {
   footer .container .nav-box .contact .mail-tel {
     text-align: center;
   }
-  footer .container .nav-box .contact .mail-tel ::after {
-    width: 100%;
-  }
   footer .container .nav-box .contact .apps {
     justify-content: center;
   }
@@ -5830,7 +5843,7 @@ footer .container .footer-alt .p2 {
   }
   footer .container .nav-box .help {
     width: 100%;
-    height: 200px;
+    height: 300px;
   }
   footer .container .footer-alt {
     flex-wrap: wrap;
@@ -5917,6 +5930,26 @@ footer .container .footer-alt .p2 {
   .One .container .nav .search-modal {
     left: 25%;
   }
+  .Three .container {
+    flex-direction: column;
+  }
+  .Three .container .suallar {
+    width: 100%;
+  }
+  .Three .container .hero-box {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .texniki-destek {
+    height: 200px;
+    flex-direction: column;
+  }
+  .Three .container .hero-box .texniki-destek .text {
+    width: 100%;
+  }
+  .Three .container .hero-box .texniki-destek .buttons {
+    width: 100%;
+  }
   footer .container .logo {
     justify-content: space-around;
   }
@@ -5936,6 +5969,26 @@ footer .container .footer-alt .p2 {
   }
   .One .container .nav .search-modal {
     left: 25.4%;
+  }
+  .Three .container {
+    flex-direction: column;
+  }
+  .Three .container .suallar {
+    width: 100%;
+  }
+  .Three .container .hero-box {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Three .container .hero-box .texniki-destek {
+    height: 200px;
+    flex-direction: column;
+  }
+  .Three .container .hero-box .texniki-destek .text {
+    width: 100%;
+  }
+  .Three .container .hero-box .texniki-destek .buttons {
+    width: 100%;
   }
   footer .container .logo {
     justify-content: space-between;
