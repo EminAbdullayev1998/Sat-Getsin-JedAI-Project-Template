@@ -3,7 +3,7 @@
 
 # $\textcolor{#D21312}{\textsf{Login Details :}}$
 ## $\textcolor{#F9D949}{\textsf{Email: emin@ gmail.com}}$
-## $\textcolor{#F9D949}{\textsf{Password: emin}}$
+## $\textcolor{#F9D949}{\textsf{Password: 12345}}$
 
 # Live Demo: https://sat-getsin-jed-ai-project-template-eq7r48gj9-eminabdullayev1998.vercel.app/
 
